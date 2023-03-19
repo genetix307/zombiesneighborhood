@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.15"
+version="1.16"
 devMode=1
 
 //Character Stats
@@ -283,9 +283,9 @@ shotgun_hit_walls = "Yes" //Stop at solids
 shotgun_ability = "None"
 //Valari ----------------------------------------------------
 valari_max_level = 10 //Max Level can be upgraded in game
-valari_base_damage = 24 //Base Damage
+valari_base_damage = 17 //Base Damage
 valari_speed = 8 //Move Speed
-valari_area = 1.2 //Effect Size
+valari_area = 1 //Effect Size
 valari_amount = 3 //How many created each attack loop
 valari_duration = 125 //How long until vanishes
 valari_pierce = "Yes" //Go through enemies

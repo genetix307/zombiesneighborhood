@@ -90,14 +90,14 @@ if hud.firebomb_level<3 {return false}
 }
 if slot=22 { //Extinguisher
 if store.suburbs_best_minute<15 {return false}
-if hud.level<10 {return false}
-if 5>random(10) {return false}
+if hud.level<40 {return false}
+if 2>random(10) {return false}
 }
 if slot=23 { //Growth Potion
 if store.lab_best_minute<8 {return false}
 if hud.growpotion_level>=10 {return false}
 if hud.growpotion_level=0 and hud.ability_slots_full=1 {return false}
-if 7>random(10) {return false}
+if 6>random(10) {return false}
 }
 if slot=24 {
 if hud.iceaxe_level>=store.iceaxe_max_level {return false}

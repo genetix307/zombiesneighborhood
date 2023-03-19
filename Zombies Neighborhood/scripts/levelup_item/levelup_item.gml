@@ -48,15 +48,15 @@ if item="firebomb"
 {
 if hud.firebomb_level < store.firebomb_max_level {hud.firebomb_level+=1}
 if hud.firebomb_level=1 {set_slot(13,"weapon",0)}
-if hud.firebomb_level = 2 {hud.firebomb_base_damage=4 hud.firebomb_amount=2 hud.firebomb_duration=165 hud.firebomb_cooldown=296}
-if hud.firebomb_level = 3 {hud.firebomb_base_damage=5 hud.firebomb_duration=170 hud.firebomb_cooldown=292}
-if hud.firebomb_level = 4 {hud.firebomb_base_damage=6 hud.firebomb_amount=3 hud.firebomb_duration=175 hud.firebomb_cooldown=288}
-if hud.firebomb_level = 5 {hud.firebomb_base_damage=7 hud.firebomb_area=1.3 hud.firebomb_duration=180 hud.firebomb_cooldown=284}
-if hud.firebomb_level = 6 {hud.firebomb_base_damage=8 hud.firebomb_amount=4 hud.firebomb_area=1.6 hud.firebomb_duration=185 hud.firebomb_cooldown=280}
-if hud.firebomb_level = 7 {hud.firebomb_base_damage=9 hud.firebomb_area=1.8 hud.firebomb_duration=190 hud.firebomb_cooldown=276}
-if hud.firebomb_level = 8 {hud.firebomb_base_damage=10 hud.firebomb_amount=5 hud.firebomb_area=2 hud.firebomb_duration=195 hud.firebomb_cooldown=272}
-if hud.firebomb_level = 9 {hud.firebomb_area=2.3 hud.firebomb_duration=200 hud.firebomb_cooldown=284}
-if hud.firebomb_level = 10 {hud.firebomb_area=2.6 hud.firebomb_amount=6 hud.firebomb_duration=205 hud.firebomb_cooldown=268}
+if hud.firebomb_level = 2 {hud.firebomb_base_damage=4 hud.firebomb_amount=2 hud.firebomb_area=1.2 hud.firebomb_duration=165 hud.firebomb_cooldown=296}
+if hud.firebomb_level = 3 {hud.firebomb_base_damage=5 hud.firebomb_duration=170 hud.firebomb_area=1.3 hud.firebomb_cooldown=292}
+if hud.firebomb_level = 4 {hud.firebomb_base_damage=6 hud.firebomb_amount=3 hud.firebomb_area=1.4 hud.firebomb_duration=175 hud.firebomb_cooldown=288}
+if hud.firebomb_level = 5 {hud.firebomb_base_damage=7 hud.firebomb_area=1.5 hud.firebomb_duration=180 hud.firebomb_cooldown=284}
+if hud.firebomb_level = 6 {hud.firebomb_base_damage=8 hud.firebomb_amount=4 hud.firebomb_area=1.65 hud.firebomb_duration=185 hud.firebomb_cooldown=280}
+if hud.firebomb_level = 7 {hud.firebomb_base_damage=9 hud.firebomb_area=1.85 hud.firebomb_duration=190 hud.firebomb_cooldown=276}
+if hud.firebomb_level = 8 {hud.firebomb_base_damage=10 hud.firebomb_amount=5 hud.firebomb_area=2.1 hud.firebomb_duration=200 hud.firebomb_cooldown=272}
+if hud.firebomb_level = 9 {hud.firebomb_area=2.4 hud.firebomb_duration=200 hud.firebomb_cooldown=284}
+if hud.firebomb_level = 10 {hud.firebomb_area=2.75 hud.firebomb_amount=6 hud.firebomb_duration=215 hud.firebomb_cooldown=268}
 }
 if item="magicorb"
 {
@@ -120,13 +120,13 @@ if hud.boomerang_level < store.boomerang_max_level {hud.boomerang_level+=1}
 if hud.boomerang_level=1 {set_slot(20,"weapon",0)}
 if hud.boomerang_level = 2 {hud.boomerang_base_damage=7 hud.boomerang_area=1.15 hud.boomerang_amount=2}
 if hud.boomerang_level = 3 {hud.boomerang_base_damage=8 hud.boomerang_area=1.3 hud.boomerang_duration=130}
-if hud.boomerang_level = 4 {hud.boomerang_base_damage=10 hud.boomerang_area=1.45 hud.boomerang_amount=3}
-if hud.boomerang_level = 5 {hud.boomerang_base_damage=11 hud.boomerang_area=1.5 hud.boomerang_duration=135}
-if hud.boomerang_level = 6 {hud.boomerang_base_damage=13 hud.boomerang_area=1.65 hud.boomerang_amount=4}
-if hud.boomerang_level = 7 {hud.boomerang_base_damage=15 hud.boomerang_area=1.8 hud.boomerang_duration=140}
-if hud.boomerang_level = 8 {hud.boomerang_base_damage=17 hud.boomerang_area=1.95 hud.boomerang_amount=5}
-if hud.boomerang_level = 9 {hud.boomerang_base_damage=19 hud.boomerang_area=2.1 hud.boomerang_duration=145}
-if hud.boomerang_level = 10 {hud.boomerang_base_damage=22 hud.boomerang_area=2.25 hud.boomerang_amount=6}
+if hud.boomerang_level = 4 {hud.boomerang_base_damage=9 hud.boomerang_area=1.45 hud.boomerang_amount=3}
+if hud.boomerang_level = 5 {hud.boomerang_base_damage=10 hud.boomerang_area=1.5 hud.boomerang_duration=135}
+if hud.boomerang_level = 6 {hud.boomerang_base_damage=11 hud.boomerang_area=1.65 hud.boomerang_amount=4}
+if hud.boomerang_level = 7 {hud.boomerang_base_damage=12 hud.boomerang_area=1.8 hud.boomerang_duration=140}
+if hud.boomerang_level = 8 {hud.boomerang_base_damage=13 hud.boomerang_area=1.95 hud.boomerang_amount=5}
+if hud.boomerang_level = 9 {hud.boomerang_base_damage=14 hud.boomerang_area=2.1 hud.boomerang_duration=145}
+if hud.boomerang_level = 10 {hud.boomerang_base_damage=15 hud.boomerang_area=2.2 hud.boomerang_amount=6}
 }
 if item="fireorb"
 {
@@ -188,14 +188,14 @@ if item="valari"
 {
 if hud.valari_level < store.valari_max_level {hud.valari_level+=1}
 if hud.valari_level=1 {set_slot(27,"weapon",20)}
-if hud.valari_level = 2 {hud.valari_base_damage=25 hud.valari_area=1.25 hud.valari_amount=4}
-if hud.valari_level = 3 {hud.valari_base_damage=26 hud.valari_area=1.35 hud.valari_duration=130}
-if hud.valari_level = 4 {hud.valari_base_damage=27 hud.valari_area=1.5 hud.valari_amount=5}
-if hud.valari_level = 5 {hud.valari_base_damage=28 hud.valari_area=1.65 hud.valari_duration=135}
-if hud.valari_level = 6 {hud.valari_base_damage=29 hud.valari_area=1.8 }
-if hud.valari_level = 7 {hud.valari_base_damage=31 hud.valari_area=1.95 hud.valari_duration=140 hud.valari_amount=6}
-if hud.valari_level = 8 {hud.valari_base_damage=32 hud.valari_area=2.1 }
-if hud.valari_level = 9 {hud.valari_base_damage=33 hud.valari_area=2.25 hud.valari_duration=145}
+if hud.valari_level = 2 {hud.valari_base_damage=18 hud.valari_area=1.25 hud.valari_amount=4}
+if hud.valari_level = 3 {hud.valari_base_damage=20 hud.valari_area=1.35 hud.valari_duration=130}
+if hud.valari_level = 4 {hud.valari_base_damage=22 hud.valari_area=1.5 hud.valari_amount=5}
+if hud.valari_level = 5 {hud.valari_base_damage=24 hud.valari_area=1.65 hud.valari_duration=135}
+if hud.valari_level = 6 {hud.valari_base_damage=26 hud.valari_area=1.8 }
+if hud.valari_level = 7 {hud.valari_base_damage=28 hud.valari_area=1.95 hud.valari_duration=140 hud.valari_amount=6}
+if hud.valari_level = 8 {hud.valari_base_damage=30 hud.valari_area=2.1 }
+if hud.valari_level = 9 {hud.valari_base_damage=32 hud.valari_area=2.25 hud.valari_duration=145}
 if hud.valari_level = 10 {hud.valari_base_damage=34 hud.valari_area=2.4 hud.valari_amount=7}
 }
 
