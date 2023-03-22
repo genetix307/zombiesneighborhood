@@ -26,6 +26,8 @@ if hud.run_minutes>=8 {spawn_flying_tentacles-=1}
 if spawn_flying_tentacles<=0 and instance_number(flying_tentacles)<max_flying_tentacles {instance_create_depth(x,y,depth,flying_tentacles) spawn_flying_tentacles=900}
 if hud.level>=50 {spawn_monster_carbuncle-=1}
 if spawn_monster_carbuncle<=0 and instance_number(monster_carbuncle)<max_monster_carbuncle {instance_create_depth(x,y,depth,monster_carbuncle) spawn_monster_carbuncle=420}
+if hud.level>=65 {spawn_zombie_hulky-=1}
+if spawn_zombie_hulky<=0 and instance_number(zombie_hulky)<max_zombie_hulky {instance_create_depth(x,y,depth,zombie_hulky) spawn_zombie_hulky=360}
 
 //Spawn Instant Waves
 if hud.run_minutes>=1 {spawn_wave_beast_spider-=1}

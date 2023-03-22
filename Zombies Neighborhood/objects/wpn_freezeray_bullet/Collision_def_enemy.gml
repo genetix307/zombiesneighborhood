@@ -1,6 +1,6 @@
 // Genetix Studio
 //Check if Critical
-if hud.player_critical_chance >= random(100) and other.damaged=0
+if hud.player_critical_chance >= random(100) and other.damaged=0 and critical=0
 {
 myAtk=myAtk*hud.player_critical_multiplier
 critical=1
@@ -22,6 +22,7 @@ if boss=0 {mp_potential_step_object(player.x,player.y,-hud.freezeray_knockback,d
 //Ice
 if boss=0 {frozen=240}
 }
+critical=0
 }
 
 if hud.freezeray_pierce = "No" {instance_destroy()}

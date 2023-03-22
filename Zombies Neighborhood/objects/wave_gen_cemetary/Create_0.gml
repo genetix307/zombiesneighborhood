@@ -39,6 +39,8 @@ spawn_skeleton_bonejamin=180
 max_skeleton_bonejamin=22
 spawn_monster_carbuncle=120
 max_monster_carbuncle=13
+spawn_zombie_hulky=60
+max_zombie_hulky=10
 
 ring_zombie_suit=0
 ring_mummy_ground=0

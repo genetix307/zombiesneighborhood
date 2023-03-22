@@ -1,6 +1,6 @@
 // Genetix Studio
 //Check if Critical
-if hud.player_critical_chance >= random(100) and other.damaged=0
+if hud.player_critical_chance >= random(100) and other.damaged=0 and critical=0
 {
 myAtk=myAtk*hud.player_critical_multiplier
 critical=1
@@ -22,6 +22,7 @@ if boss=0 {mp_potential_step_object(player.x,player.y,-hud.fireorb_knockback,def
 if boss=0 {burning=300}
 if 10+hud.player_luck>random(100) {instance_create_depth(x,y,depth,wpn_firebomb)}
 }
+critical=0
 }
 
 if hud.fireorb_pierce = "No" {instance_destroy()}

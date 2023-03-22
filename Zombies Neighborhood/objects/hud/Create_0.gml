@@ -290,6 +290,24 @@ if store.character = 3 {magicorb_level=1 wpn_slot_1 = 14 player_luck+=7}
 if store.character = 4 {axe_level=1 wpn_slot_1 = 15 player_max_hp+=10 player_hp=player_max_hp player_attack_damage+=2}
 if store.character = 5 {shotgun_level=1 wpn_slot_1 = 26 player_critical_chance+=5}
 
+//Cards
+if store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or store.card_slot_4 =4
+	{
+		instance_create_depth(player.x-40,player.y+40,depth,pet_dog)
+	}
+if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 =7
+	{
+		player_critical_chance+=1
+	}
+if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or store.card_slot_4 =8
+	{
+	if store.character = 1 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_knife)}
+	if store.character = 2 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_ninemil)}
+	if store.character = 3 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_magicorb)}
+	if store.character = 4 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_axe)}
+	if store.character = 5 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_shotgun)}
+	}
+
 // Initialise Viewports
 view_enabled = true;
 view_visible[0] = true;
@@ -304,9 +322,3 @@ var _xpos = (_dwidth / 2) - 240;
 var _ypos = (_dheight / 2) - 480;
 window_set_rectangle(_xpos, _ypos, 480, 960);
 surface_resize(application_surface, 480, 960);
-
-//Cards
-if store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or store.card_slot_4 =4
-	{
-		instance_create_depth(player.x-40,player.y+40,depth,pet_dog)
-	}

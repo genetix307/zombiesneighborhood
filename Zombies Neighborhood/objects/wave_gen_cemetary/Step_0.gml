@@ -30,6 +30,8 @@ if hud.run_minutes>=0 and hud.run_seconds>40 {spawn_skeleton_bonejamin-=1}
 if spawn_skeleton_bonejamin<=0 and instance_number(skeleton_bonejamin)<max_skeleton_bonejamin {instance_create_depth(x,y,depth,skeleton_bonejamin) spawn_skeleton_bonejamin=90}
 if hud.level>=50 {spawn_monster_carbuncle-=1}
 if spawn_monster_carbuncle<=0 and instance_number(monster_carbuncle)<max_monster_carbuncle {instance_create_depth(x,y,depth,monster_carbuncle) spawn_monster_carbuncle=420}
+if hud.level>=65 {spawn_zombie_hulky-=1}
+if spawn_zombie_hulky<=0 and instance_number(zombie_hulky)<max_zombie_hulky {instance_create_depth(x,y,depth,zombie_hulky) spawn_zombie_hulky=360}
 
 //Spawn Instant Waves
 if hud.run_minutes>=1 {spawn_wave_beast_spider-=1}

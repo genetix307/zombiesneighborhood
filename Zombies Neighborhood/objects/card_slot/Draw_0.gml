@@ -33,3 +33,8 @@ if my_id = 7 //Critical Gold
 if store.card_critgold = 0 {image_index = 1}
 if store.card_critgold > 0 {image_index = 2 draw_card()}
 }
+if my_id = 8 //Mastery
+{
+if store.card_mastery = 0 {image_index = 1}
+if store.card_mastery > 0 {image_index = 2 draw_card()}
+}

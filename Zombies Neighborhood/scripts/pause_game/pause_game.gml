@@ -23,5 +23,10 @@ instance_create_depth(cx+360,cy+350,depth-10,pause_ability_slot).my_id=7
 instance_create_depth(cx+392,cy+350,depth-10,pause_ability_slot).my_id=8
 instance_create_depth(cx+424,cy+350,depth-10,pause_ability_slot).my_id=9
 instance_create_depth(cx+456,cy+350,depth-10,pause_ability_slot).my_id=10
+
+instance_create_depth(cx+85,cy+830,depth-10,card_show_pause).my_slot=0
+instance_create_depth(cx+190,cy+830,depth-10,card_show_pause).my_slot=1
+instance_create_depth(cx+295,cy+830,depth-10,card_show_pause).my_slot=2
+instance_create_depth(cx+400,cy+830,depth-10,card_show_pause).my_slot=3
 } else {hud.paused = 0 hud.show_menu=0}
 }

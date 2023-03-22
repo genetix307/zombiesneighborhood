@@ -37,11 +37,13 @@ store.card_lvl_pinata = 1
 store.card_fetch = 0
 store.card_lvl_fetch = 1
 store.card_pizza = 0
-store.card_lvl_pizza = 0
+store.card_lvl_pizza = 1
 store.card_repulse = 0
 store.card_lvl_repulse = 1
 store.card_critgold = 0
 store.card_lvl_critgold = 1
+store.card_mastery=0
+store.card_lvl_mastery=1
 //Misc
 store.current_stage = 1
 store.bonus_discord=0

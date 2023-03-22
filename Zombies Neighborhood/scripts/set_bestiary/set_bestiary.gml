@@ -23,7 +23,7 @@ myDesc="Creepy, crawly, but has a good humor."
 sprite_index=spr_beast_spider
 }
 if my_id=4 {
-myName="Name: Crawler\nType: Mummy - Ground"
+myName="Name: Crawler\nType: Zombie - Ground"
 myDesc="Slow and steady wins the brains."
 sprite_index=spr_mummy_ground
 }
@@ -97,6 +97,21 @@ myName="Name: Carbuncle\nType: Monster - Flying"
 myDesc="A rare shell like creature, probably just an urban legend."
 sprite_index=spr_monster_carbuncle
 }
+if my_id=19  {
+myName="Name: Hulky\nType: Zombie - Ground"
+myDesc="A huge muscular Undead that spent his days at the Gym before pursuing brains."
+sprite_index=spr_zombie_hulky
+}
+if my_id=20  {
+myName="Name: Rattling\nType: Beast - Ground"
+myDesc="An infected city rat that has come out of the sewers to play."
+sprite_index=spr_beast_rat
+}
+if my_id=21  {
+myName="Name: Queen Rat\nType: Boss - Ground"
+myDesc="The Mother of the rattlings, from the depths below."
+sprite_index=spr_boss_rat
+}
 
-total_ids=18 //Total number of enemies
+total_ids=21 //Total number of enemies
 }
