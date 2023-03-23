@@ -1,6 +1,6 @@
 angle=0
 angle_rate=8
-distance=600
+distance=560
 image_alpha=.001
 alarm[0]=600
 
@@ -41,9 +41,18 @@ spawn_monster_carbuncle=120
 max_monster_carbuncle=13
 spawn_zombie_hulky=60
 max_zombie_hulky=10
+spawn_beast_rat=60
+max_beast_rat=40
+spawn_boss_rat=180
+max_boss_rat=1
+spawn_spirit_ghost=90
+max_spirit_ghost=60
+spawn_boss_boogie=180
+max_boss_boogie=1
 
 ring_zombie_suit=0
 ring_mummy_ground=0
 ring_vampire_vlad=0
+ring_rat=0
 
 

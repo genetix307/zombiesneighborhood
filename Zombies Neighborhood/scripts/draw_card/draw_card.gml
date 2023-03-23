@@ -26,7 +26,7 @@ draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_pinata),15,86)
 if store.card_lvl_pinata >=4 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,string((store.card_lvl_pinata*.5)+.5)+"% Enemies drop Loot when slain",14,88)
+draw_text_ext(x-43,y+8,string((store.card_lvl_pinata*.25)+.75)+"% Enemies drop Loot when slain",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_pinata)) 
 }
@@ -41,7 +41,7 @@ draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_fetch),15,86)
 if store.card_lvl_fetch >=4 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Get Dog with "+string(store.card_lvl_fetch*10)+"HP that fetches XP orbs",14,88)
+draw_text_ext(x-43,y+8,"Get Dog with "+string(store.card_lvl_fetch*2)+" damage bite.",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_fetch)) 
 }

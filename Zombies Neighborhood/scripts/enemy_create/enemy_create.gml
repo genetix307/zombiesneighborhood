@@ -39,6 +39,7 @@ if type="boss_reaper" {boss=1 flying=1 instance_create_depth(x,y,depth,show_boss
 if type="boss_skullbat" {boss=1 flying=1 atk_speed=180 instance_create_depth(x,y,depth,show_boss_warning)}
 if type="boss_extermus" {boss=1 atk_speed=150 instance_create_depth(x,y,depth,show_boss_warning)}
 if type="boss_boogie" {boss=1 atk_speed=150 instance_create_depth(x,y,depth,show_boss_warning)}
+if type="boss_queenrat" {boss=1 atk_speed=160 instance_create_depth(x,y,depth,show_boss_warning)}
 
 if type="beast_spider" {path_straight=1 path_follow=0}
 

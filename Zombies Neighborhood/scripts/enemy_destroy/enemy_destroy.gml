@@ -12,7 +12,7 @@ hud.enemies_killed +=1
 
 if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3
 	{
-		if ((store.card_lvl_pinata*.5)+.5)>random(100) {open_crate()}
+		if ((store.card_lvl_pinata*.25)+.75)>random(100) {open_crate()}
 	}
 
 //Quick Challenge

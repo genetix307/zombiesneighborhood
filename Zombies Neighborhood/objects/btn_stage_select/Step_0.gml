@@ -16,8 +16,8 @@ if my_id=3 and store.lab_best_level>=50
 image_index=3
 }
 
-//if my_id=4 and store.cemetary_best_level>=50
-//{
-//image_index=4
-//}
+if my_id=4 and store.cemetary_best_level>=50
+{
+image_index=4
+}
 

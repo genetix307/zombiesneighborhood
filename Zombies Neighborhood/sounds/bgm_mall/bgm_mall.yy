@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_mall.mp3",
-  "duration": 122.27918,
+  "duration": 130.48163,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

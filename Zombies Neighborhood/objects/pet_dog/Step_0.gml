@@ -1,7 +1,7 @@
 if x>player.x {image_xscale=-1}
 if x<player.x {image_xscale=1}
 if damaged>0 {damaged-=1}
-if canBark>300 {audio_play_sound(sfx_bark,1,false) canBark=0}
+if canBark>900 {audio_play_sound(sfx_bark,1,false) canBark=0}
 
 depth = -y
 //image_speed=0

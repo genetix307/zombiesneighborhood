@@ -19,10 +19,10 @@ store.current_stage=3
 audio_play_sound(sfx_click,1,false)
 }
 
-//if my_id=4 and store.cemetary_best_level>=50
-//{
-//store.current_stage=4
-//audio_play_sound(sfx_click,1,false)
-//}
+if my_id=4 and store.cemetary_best_level>=50
+{
+store.current_stage=4
+audio_play_sound(sfx_click,1,false)
+}
 
 
