@@ -450,6 +450,7 @@
     {"id":{"name":"spr_player_template","path":"sprites/spr_player_template/spr_player_template.yy",},"order":12,},
     {"id":{"name":"btn_cards","path":"objects/btn_cards/btn_cards.yy",},"order":1,},
     {"id":{"name":"rm_menu_upgrades","path":"rooms/rm_menu_upgrades/rm_menu_upgrades.yy",},"order":12,},
+    {"id":{"name":"btn_abandon_run","path":"objects/btn_abandon_run/btn_abandon_run.yy",},"order":3,},
     {"id":{"name":"store","path":"objects/store/store.yy",},"order":0,},
     {"id":{"name":"enemy_laser","path":"objects/enemy_laser/enemy_laser.yy",},"order":2,},
     {"id":{"name":"def_solid","path":"objects/def_solid/def_solid.yy",},"order":3,},

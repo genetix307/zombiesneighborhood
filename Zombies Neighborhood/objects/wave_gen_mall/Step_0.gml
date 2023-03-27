@@ -10,7 +10,6 @@ if hud.run_minutes>=0 {spawn_crate-=1 if hud.player_luck>random(100) {spawn_crat
 if spawn_crate<=0 and instance_number(supply_crate)<max_crates {instance_create_depth(x,y,depth,supply_crate) spawn_crate=1760 exit}
 
 //Spawn Enemies
-
 if hud.run_minutes>=0  {spawn_beast_rat-=1}
 if spawn_beast_rat<=0 and instance_number(beast_rat)<max_beast_rat {instance_create_depth(x,y,depth,beast_rat) spawn_beast_rat=55}
 if hud.run_minutes>=2 and hud.run_seconds<45 {spawn_zombie_suit-=1}
@@ -59,13 +58,13 @@ if spawn_boss_baby<=0 and hud.run_minutes>=4 {instance_create_depth(x,y,depth,bo
 if hud.run_minutes>=6 {spawn_boss_brain-=1}
 if hud.run_minutes>=6 {spawn_boss_skullbat-=1}
 if spawn_boss_skullbat<=0 and instance_number(boss_skullbat)<max_boss_skullbat {instance_create_depth(x,y,depth,boss_skullbat) spawn_boss_skullbat=64000 ring_mummy_ground=15}
-if spawn_boss_skullbat<=0 and instance_number(boss_skullbat)<max_boss_skullbat {instance_create_depth(x,y,depth,boss_skullbat) spawn_boss_skullbat=64000 ring_vampire_vlad=15}
+if spawn_boss_brain<=0 and instance_number(boss_brain)<max_boss_brain {instance_create_depth(x,y,depth,boss_brain) spawn_boss_brain=64000 ring_vampire_vlad=15}
 if hud.run_minutes>=8 {spawn_boss_boogie-=1}
 if spawn_boss_boogie<=0 and instance_number(boss_boogie)<max_boss_boogie {instance_create_depth(x,y,depth,boss_boogie) spawn_boss_boogie=64000 ring_rat=22}
 if hud.run_minutes>=11 {spawn_boss_extermus-=1}
 if spawn_boss_extermus<=0 {repeat 2 instance_create_depth(random_range(x-24,x+24),y,depth,boss_extermus) spawn_boss_extermus=64000 ring_mummy_ground=22}
 if hud.run_minutes>=15 {spawn_boss_reaper-=1}
-if spawn_boss_reaper<=0 and instance_number(boss_reaper)<max_boss_reaper {instance_create_depth(x,y,depth,boss_reaper) spawn_boss_reaper=6000}
+if spawn_boss_reaper<=0 and instance_number(boss_reaper)<max_boss_reaper {instance_create_depth(x,y,depth,boss_reaper) spawn_boss_reaper=3600}
 
 }
 

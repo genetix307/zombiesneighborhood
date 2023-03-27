@@ -201,7 +201,7 @@ if hud.valari_level = 10 {hud.valari_base_damage=34 hud.valari_area=2.4 hud.vala
 
 if item="feather"
 {
-if hud.feather_level < store.feather_max_level {hud.feather_level+=1 hud.player_speed+=.25}
+if hud.feather_level < store.feather_max_level {hud.feather_level+=1 hud.player_speed+=.2}
 if hud.feather_level = 1 {set_slot(4,"ability",0)}
 }
 if item="shield"

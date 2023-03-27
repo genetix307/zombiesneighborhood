@@ -38,6 +38,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E39B452","properties":[],"isDnd":false,"objectId":{"name":"btn_card_upgrade","path":"objects/btn_card_upgrade/btn_card_upgrade.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":168.0,"y":712.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E1EFCB1","properties":[],"isDnd":false,"objectId":{"name":"btn_card_buy","path":"objects/btn_card_buy/btn_card_buy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":712.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_425ED5D4","properties":[],"isDnd":false,"objectId":{"name":"btn_home_menu","path":"objects/btn_home_menu/btn_home_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":168.0,"y":896.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A4F95EF","properties":[],"isDnd":false,"objectId":{"name":"chest_coins","path":"objects/chest_coins/chest_coins.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":456.0,"y":936.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_vignette","properties":[
         {"type":0,"name":"g_VignetteEdges","value":"0.55",},
@@ -72,6 +73,7 @@
     {"name":"inst_7E39B452","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
     {"name":"inst_4E1EFCB1","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
     {"name":"inst_425ED5D4","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
+    {"name":"inst_4A4F95EF","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

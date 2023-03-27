@@ -1,4 +1,4 @@
-if hud.paused=0 and hud.gameover=0 and damaged=0 
+if hud.paused=0 and hud.gameover=0 and damaged=0 and invincible<=0
 {
 hud.player_hp-=(other.myAtk-((other.myAtk*hud.player_defense)/100))
 audio_play_sound(sfx_playerhit,1,false)
