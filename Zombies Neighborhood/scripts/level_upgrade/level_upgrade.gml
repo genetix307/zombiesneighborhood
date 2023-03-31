@@ -106,5 +106,12 @@ if my_id=27 {
 levelup_item("valari")
 instance_create_depth(x,y-1500,depth,show_banner_message).myMessage="Valari Leveled Up"
 }
+if my_id=28 {
+instance_create_depth(player.x,player.y,depth,item_invincible_potion)
+}
+if my_id=29 {
+levelup_item("waveblaster")
+instance_create_depth(x,y-1500,depth,show_banner_message).myMessage="Waveblaster Leveled Up"
+}
 
 }

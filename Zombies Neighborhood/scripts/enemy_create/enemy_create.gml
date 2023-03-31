@@ -2,10 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function enemy_create(type){
 //Base Stats
-maxHP+=(store.stage*5)-5+(hud.run_minutes)+(round(hud.level/10))
-if hud.level >=40 {maxHP+=store.stage*5}
+maxHP+=(store.stage*8)-5+(hud.run_minutes)+(round(hud.level/10))
+if hud.level >=35 {maxHP+=store.stage*5}
+if hud.level >=45 {maxHP+=store.stage*7}
+if hud.level >=55 {maxHP+=store.stage*10}
+if store.gold>1000 {maxHP+=15}
 myHP=maxHP
-baseSpeed+=hud.run_minutes/25
+baseSpeed+=hud.run_minutes/20
 mySpeed=0
 myAtk+=(1*store.stage)-1+(hud.run_minutes/2)
 dest_x=0

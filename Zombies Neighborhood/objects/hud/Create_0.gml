@@ -270,6 +270,20 @@ valari_damaged_delay = store.valari_damaged_delay
 valari_knockback = store.valari_knockback
 valari_hit_walls = store.valari_hit_walls 
 valari_ability=store.valari_ability
+//Waveblaster--------------------------------------------------
+waveblaster_level = 0
+waveblaster_base_damage = store.waveblaster_base_damage 
+waveblaster_speed = store.waveblaster_speed 
+waveblaster_amount = store.waveblaster_amount 
+waveblaster_area = store.waveblaster_area
+waveblaster_duration = store.waveblaster_duration 
+waveblaster_pierce = store.waveblaster_pierce 
+waveblaster_cooldown = store.waveblaster_cooldown 
+waveblaster_canuse = 0
+waveblaster_damaged_delay = store.waveblaster_damaged_delay
+waveblaster_knockback = store.waveblaster_knockback
+waveblaster_hit_walls = store.waveblaster_hit_walls 
+waveblaster_ability=store.waveblaster_ability
 
 //Ability Stats--------------------------------------
 feather_level=0
@@ -306,6 +320,10 @@ if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or st
 	if store.character = 3 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_magicorb)}
 	if store.character = 4 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_axe)}
 	if store.character = 5 {repeat store.card_lvl_mastery instance_create_depth(player.x,player.y,depth,item_shotgun)}
+	}
+if store.card_slot_1 = 9 or store.card_slot_2 = 9 or store.card_slot_3 = 9 or store.card_slot_4 =9
+	{
+		instance_create_depth(player.x+40,player.y-40,depth,summon_ally)
 	}
 
 // Initialise Viewports

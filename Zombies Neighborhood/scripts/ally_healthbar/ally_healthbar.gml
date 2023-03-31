@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function dog_healthbar(){
+function ally_healthbar(){
 //Draw HP bar
 draw_set_font(font_stats)
 draw_set_alpha(.75)

@@ -61,12 +61,14 @@ function save_game(){
 	ini_write_real( "save1", "lab_best_minute", store.lab_best_minute);
 	ini_write_real( "save1", "lab_best_second", store.lab_best_second);
 	ini_write_real( "save1", "lab_best_level", store.lab_best_level);
+	ini_write_real( "save1", "lab_best_saved", store.lab_best_saved);
 	ini_write_real( "save1", "cemetary_best_minute", store.cemetary_best_minute);
 	ini_write_real( "save1", "cemetary_best_second", store.cemetary_best_second);
 	ini_write_real( "save1", "cemetary_best_level", store.cemetary_best_level);
 	ini_write_real( "save1", "mall_best_minute", store.mall_best_minute);
 	ini_write_real( "save1", "mall_best_second", store.mall_best_second);
 	ini_write_real( "save1", "mall_best_level", store.mall_best_level);
+	ini_write_real( "save1", "mall_best_saved", store.mall_best_saved);
 	//cards
 	ini_write_real( "save1", "slot_2_unlocked", store.slot_2_unlocked);
 	ini_write_real( "save1", "slot_3_unlocked", store.slot_3_unlocked);
@@ -90,6 +92,8 @@ function save_game(){
 	ini_write_real( "save1", "card_lvl_critgold", store.card_lvl_critgold);
 	ini_write_real( "save1", "card_mastery", store.card_mastery);
 	ini_write_real( "save1", "card_lvl_mastery", store.card_lvl_mastery);
+	ini_write_real( "save1", "card_necro", store.card_necro);
+	ini_write_real( "save1", "card_lvl_necro", store.card_lvl_necro);
 	//Bonus Codes
 	ini_write_real( "save1", "code_payday", store.code_payday);
 	ini_write_real( "save1", "code_cashcow", store.code_cashcow);
@@ -98,6 +102,7 @@ function save_game(){
 	ini_write_real( "save1", "code_jackpot", store.code_jackpot);
 	ini_write_real( "save1", "code_genetix", store.code_genetix);
 	ini_write_real( "save1", "code_cookie", store.code_cookie);
+	ini_write_real( "save1", "code_zombie", store.code_zombie);
 	
 	//show_message("Game Saved")
 	ini_close();

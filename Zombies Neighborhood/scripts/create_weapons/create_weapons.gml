@@ -85,5 +85,11 @@ if (hud.wpn_slot_1=27 or hud.wpn_slot_2=27 or hud.wpn_slot_3=27 or hud.wpn_slot_
 if hud.valari_canuse>0 {hud.valari_canuse-=1}
 if hud.valari_canuse <=0 {repeat hud.valari_amount instance_create_depth(x,y,depth-1,wpn_valari) hud.valari_canuse=hud.valari_cooldown}
 }
+//Waveblaster
+if (hud.wpn_slot_1=29 or hud.wpn_slot_2=29 or hud.wpn_slot_3=29 or hud.wpn_slot_4=29 or hud.wpn_slot_5=29)
+{
+if hud.waveblaster_canuse>0 {hud.waveblaster_canuse-=1}
+if hud.waveblaster_canuse <=0 {repeat hud.waveblaster_amount instance_create_depth(x,y,depth-1,wpn_waveblaster_bullet) hud.waveblaster_canuse=hud.waveblaster_cooldown}
+}
 
 }

@@ -2,14 +2,14 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.16"
+version="1.17"
 devMode=1
 
 //Character Stats
 player_max_hp = 30
 player_regen = 0
 player_defense = 0
-player_speed = 2.5
+player_speed = 2.4
 player_attack_damage=0
 player_critical_chance=0
 player_critical_multiplier=2
@@ -52,6 +52,8 @@ card_critgold = 0
 card_lvl_critgold = 1
 card_mastery=0
 card_lvl_mastery=1
+card_necro=0
+card_lvl_necro=1
 
 //Misc
 current_stage = 1
@@ -88,12 +90,14 @@ suburbs_best_level=0
 lab_best_minute=0
 lab_best_second=0
 lab_best_level=0
+lab_best_saved=0
 cemetary_best_minute=0
 cemetary_best_second=0
 cemetary_best_level=0
 mall_best_minute=0
 mall_best_second=0
 mall_best_level=0
+mall_best_saved=0
 
 //Settings
 draw_shadows = 1
@@ -112,6 +116,7 @@ code_sparechange=0
 code_jackpot=0
 code_genetix=0
 code_cookie=0
+code_zombie=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------
@@ -296,11 +301,24 @@ valari_damaged_delay = 20 //Time until can damage enemy again
 valari_knockback = 18 //Enemy Knockback
 valari_hit_walls = "No" //Stop at solids
 valari_ability = "None"
+//Waveblaster ----------------------------------------------------
+waveblaster_max_level = 10 //Max Level can be upgraded in game
+waveblaster_base_damage = 10 //Base Damage
+waveblaster_speed = 10 //Move Speed
+waveblaster_area = 1 //Effect Size
+waveblaster_amount = 1 //How many created each attack loop
+waveblaster_duration = 36 //How long until vanishes
+waveblaster_pierce = "Yes" //Go through enemies
+waveblaster_cooldown = 90 //Time to set canuse to
+waveblaster_damaged_delay = 15 //Time until can damage enemy again
+waveblaster_knockback = 10 //Enemy Knockback
+waveblaster_hit_walls = "Yes" //Stop at solids
+waveblaster_ability = "None"
 
 //Ability Max Levels
 magnet_max_level=25
-feather_max_level=10
-shield_max_level=10
+feather_max_level=8
+shield_max_level=15
 potion_max_level=10
 target_max_level=15
 heart_max_level=999

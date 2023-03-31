@@ -172,5 +172,19 @@ myName = "Valari"
 myDesc = "Evolved weapon that is sharp, precise, and always comes back.\nRequires: Boomerang lvl 10, Target lvl 3"
 locked=0
 }
+if my_id=28 {
+if store.lab_best_saved>=7 {
+myName = "Invincibility Potion"
+myDesc = "Makes player Invincible for 10 Seconds when drank!"
+locked=0
+} else {myDesc="Save all neighbors in Lonely Laboratory"} 
+}
+if my_id=29 {
+if store.mall_best_saved>=7 {
+myName = "Waveblaster"
+myDesc = "Fires energy burst that travels in a wave formation"
+locked=0
+} else {myDesc="Save all neighbors in Morbid Mall"} 
+}
 
 }

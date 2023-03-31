@@ -90,8 +90,8 @@ if hud.firebomb_level<3 {return false}
 }
 if slot=22 { //Extinguisher
 if store.suburbs_best_minute<15 {return false}
-if hud.level<40 {return false}
-if 2>random(10) {return false}
+if hud.level<50 {return false}
+if 4>random(10) {return false}
 }
 if slot=23 { //Growth Potion
 if store.lab_best_minute<8 {return false}
@@ -99,7 +99,7 @@ if hud.growpotion_level>=10 {return false}
 if hud.growpotion_level=0 and hud.ability_slots_full=1 {return false}
 if 6>random(10) {return false}
 }
-if slot=24 {
+if slot=24 {  //Iceaxe
 if hud.iceaxe_level>=store.iceaxe_max_level {return false}
 if hud.axe_level<store.axe_max_level {return false}
 if hud.clover_level<3 {return false}
@@ -118,6 +118,16 @@ if slot=27 { //Valari
 if hud.valari_level>=store.valari_max_level {return false}
 if hud.boomerang_level<store.boomerang_max_level {return false}
 if hud.target_level<3 {return false}
+}
+if slot=28 { //Invincibility Potion
+if store.lab_best_saved<7 {return false}
+if hud.level<50 {return false}
+if 4>random(10) {return false}
+}
+if slot=29 { //Waveblaster
+if hud.waveblaster_level>=store.waveblaster_max_level {return false}
+if hud.waveblaster_level=0 and hud.weapon_slots_full=1 {return false}
+if store.mall_best_saved<7 {return false}
 }
 
 return true

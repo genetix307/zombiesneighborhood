@@ -64,12 +64,14 @@ function load_game(){
 	store.lab_best_minute = ini_read_real( "save1", "lab_best_minute",store.lab_best_minute);
 	store.lab_best_second = ini_read_real( "save1", "lab_best_second",store.lab_best_second);
 	store.lab_best_level = ini_read_real( "save1", "lab_best_level",store.lab_best_level);
+	store.lab_best_saved = ini_read_real( "save1", "lab_best_saved",store.lab_best_saved);
 	store.cemetary_best_minute = ini_read_real( "save1", "cemetary_best_minute",store.cemetary_best_minute);
 	store.cemetary_best_second = ini_read_real( "save1", "cemetary_best_second",store.cemetary_best_second);
 	store.cemetary_best_level = ini_read_real( "save1", "cemetary_best_level",store.cemetary_best_level);
 	store.mall_best_minute = ini_read_real( "save1", "mall_best_minute",store.mall_best_minute);
 	store.mall_best_second = ini_read_real( "save1", "mall_best_second",store.mall_best_second);
 	store.mall_best_level = ini_read_real( "save1", "mall_best_level",store.mall_best_level);
+	store.mall_best_saved = ini_read_real( "save1", "mall_best_saved",store.mall_best_saved);
 	//cards
 	store.slot_2_unlocked = ini_read_real( "save1", "slot_2_unlocked",store.slot_2_unlocked);
 	store.slot_3_unlocked = ini_read_real( "save1", "slot_3_unlocked",store.slot_3_unlocked);
@@ -93,6 +95,8 @@ function load_game(){
 	store.card_lvl_critgold = ini_read_real( "save1", "card_lvl_critgold",store.card_lvl_critgold);
 	store.card_mastery = ini_read_real( "save1", "card_mastery",store.card_mastery);
 	store.card_lvl_mastery = ini_read_real( "save1", "card_lvl_mastery",store.card_lvl_mastery);
+	store.card_necro = ini_read_real( "save1", "card_necro",store.card_necro);
+	store.card_lvl_necro = ini_read_real( "save1", "card_lvl_necro",store.card_lvl_necro);
 
 	//Bonus Codes
 	store.code_payday = ini_read_real( "save1", "code_payday",store.code_payday);
@@ -102,6 +106,7 @@ function load_game(){
 	store.code_jackpot = ini_read_real( "save1", "code_jackpot",store.code_jackpot);
 	store.code_genetix = ini_read_real( "save1", "code_genetix",store.code_genetix);
 	store.code_cookie = ini_read_real( "save1", "code_cookie",store.code_cookie);
+	store.code_zombie = ini_read_real( "save1", "code_zombie",store.code_zombie);
 	
 	//show_message("Game Loaded")
 	ini_close();

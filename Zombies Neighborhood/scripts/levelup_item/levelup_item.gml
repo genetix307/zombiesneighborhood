@@ -198,6 +198,20 @@ if hud.valari_level = 8 {hud.valari_base_damage=30 hud.valari_area=2.1 }
 if hud.valari_level = 9 {hud.valari_base_damage=32 hud.valari_area=2.25 hud.valari_duration=145}
 if hud.valari_level = 10 {hud.valari_base_damage=34 hud.valari_area=2.4 hud.valari_amount=7}
 }
+if item="waveblaster"
+{
+if hud.waveblaster_level < store.waveblaster_max_level {hud.waveblaster_level+=1}
+if hud.waveblaster_level=1 {set_slot(29,"weapon",0)}
+if hud.waveblaster_level = 2 {hud.waveblaster_base_damage=13 hud.waveblaster_duration=38 hud.waveblaster_cooldown=86 hud.waveblaster_amount=2 }
+if hud.waveblaster_level = 3 {hud.waveblaster_base_damage=16 hud.waveblaster_duration=41 hud.waveblaster_cooldown=80}
+if hud.waveblaster_level = 4 {hud.waveblaster_base_damage=23 hud.waveblaster_duration=44 hud.waveblaster_cooldown=74 hud.waveblaster_amount=3}
+if hud.waveblaster_level = 5 {hud.waveblaster_base_damage=29 hud.waveblaster_duration=46 hud.waveblaster_cooldown=68}
+if hud.waveblaster_level = 6 {hud.waveblaster_base_damage=33 hud.waveblaster_duration=48 hud.waveblaster_cooldown=66 hud.waveblaster_amount=4}
+if hud.waveblaster_level = 7 {hud.waveblaster_base_damage=35 hud.waveblaster_duration=50 hud.waveblaster_cooldown=64}
+if hud.waveblaster_level = 8 {hud.waveblaster_base_damage=38 hud.waveblaster_duration=52 hud.waveblaster_cooldown=62}
+if hud.waveblaster_level = 9 {hud.waveblaster_base_damage=41 hud.waveblaster_duration=54 hud.waveblaster_cooldown=61}
+if hud.waveblaster_level = 10 {hud.waveblaster_base_damage=44 hud.waveblaster_duration=55 hud.waveblaster_cooldown=60}
+}
 
 if item="feather"
 {

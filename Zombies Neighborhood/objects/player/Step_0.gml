@@ -21,7 +21,7 @@ if y > room_height-32 {y = room_height -32}
 if y < 16 {y = 16}
 if damaged>0{damaged-=1}
 if hud.player_hp > hud.player_max_hp {hud.player_hp = hud.player_max_hp}
-if invincible>0 {invincible-=1}
+if invincible>0 and hud.paused=0 {invincible-=1}
 
 ///Weapons
 if hud.paused=0 and hud.gameover=0

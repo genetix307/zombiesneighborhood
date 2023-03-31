@@ -164,5 +164,16 @@ myInfo="Sharp and precise weapon always comes back."
 myLevel="Level "+string(hud.valari_level)+">"+string(hud.valari_level+1)
 if hud.valari_level=0 {isNew=1}
 }
+if my_id=28 {
+myHeader="Invincibility Potion"
+myInfo="Makes player invincible for 10 Seconds"
+myLevel=""
+}
+if my_id=29 {
+myHeader="Waveblaster"
+myInfo="Energy bursts that travel in a wave formation."
+myLevel="Level "+string(hud.waveblaster_level)+">"+string(hud.waveblaster_level+1)
+if hud.waveblaster_level=0 {isNew=1}
+}
 
 }

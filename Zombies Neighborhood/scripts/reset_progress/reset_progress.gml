@@ -44,6 +44,8 @@ store.card_critgold = 0
 store.card_lvl_critgold = 1
 store.card_mastery=0
 store.card_lvl_mastery=1
+store.card_necro=0
+store.card_lvl_necro=1
 //Misc
 store.current_stage = 1
 store.bonus_discord=0
@@ -74,12 +76,14 @@ store.suburbs_best_level=0
 store.lab_best_minute=0
 store.lab_best_second=0
 store.lab_best_level=0
+store.lab_best_saved=0
 store.cemetary_best_minute=0
 store.cemetary_best_second=0
 store.cemetary_best_level=0
 store.mall_best_minute=0
 store.mall_best_second=0
 store.mall_best_level=0
+store.mall_best_saved=0
 //Settings
 store.draw_shadows = 1
 store.show_minihealthbar = 1
@@ -96,4 +100,5 @@ store.code_sparechange=0
 store.code_jackpot=0
 store.code_genetix=0
 store.code_cookie=0
+store.code_zombie=0
 }

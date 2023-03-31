@@ -54,8 +54,17 @@ save_game()
 
 if myResult = "cookie" and store.code_cookie = 0
 {
-reward = 150
+reward = 75
 store.code_cookie = 1
+store.gold += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
+save_game()
+}
+
+if myResult = "zombie" and store.code_zombie = 0
+{
+reward = 100
+store.code_zombie = 1
 store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()

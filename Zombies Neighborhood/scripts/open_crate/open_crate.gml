@@ -1,6 +1,6 @@
 function open_crate(){
-myItem= ceil(random(23.99)) //*Max number of items
-myItemBackup= ceil(random(3.99)) //Max Backup items
+myItem= ceil(random(24.99)) //*Max number of items
+myItemBackup= ceil(random(4.99)) //Max Backup items
 
 if myItem=1 {
 if hud.knife_level<store.knife_max_level and hud.knife_level>0 {instance_create_depth(x,y,depth,item_knife) exit}
@@ -48,16 +48,16 @@ if myItem=15 {
 if hud.axe_level<store.axe_max_level and hud.axe_level>0 {instance_create_depth(x,y,depth,item_axe) exit}
 }
 if myItem=16 {
-if hud.bloodknife_level<store.bloodknife_max_level and hud.bloodknife_level>0 {instance_create_depth(x,y,depth,spr_item_bloodknife) exit}
+if hud.bloodknife_level<store.bloodknife_max_level and hud.bloodknife_level>0 {instance_create_depth(x,y,depth,item_bloodknife) exit}
 }
 if myItem=17 {
-if hud.revolver_level<store.revolver_max_level and hud.revolver_level>0 {instance_create_depth(x,y,depth,spr_item_revolver) exit}
+if hud.revolver_level<store.revolver_max_level and hud.revolver_level>0 {instance_create_depth(x,y,depth,item_revolver) exit}
 }
 if myItem=18{
-if hud.boomerang_level<store.boomerang_max_level and hud.boomerang_level>0 {instance_create_depth(x,y,depth,spr_item_boomerang) exit}
+if hud.boomerang_level<store.boomerang_max_level and hud.boomerang_level>0 {instance_create_depth(x,y,depth,item_boomerang) exit}
 }
 if myItem=19{
-if hud.fireorb_level<store.fireorb_max_level and hud.fireorb_level>0 {instance_create_depth(x,y,depth,spr_item_fireorb) exit}
+if hud.fireorb_level<store.fireorb_max_level and hud.fireorb_level>0 {instance_create_depth(x,y,depth,item_fireorb) exit}
 }
 if myItem=20 {
 if hud.growpotion_level<10 and hud.growpotion_level>0 and store.lab_best_minute>=8 {instance_create_depth(x,y,depth,item_growthpotion) exit}
@@ -74,6 +74,9 @@ if hud.shotgun_level<store.shotgun_max_level and hud.shotgun_level>0 {instance_c
 if myItem=24{
 if hud.valari_level<store.valari_max_level and hud.valari_level>0 {instance_create_depth(x,y,depth,spr_item_valari) exit}
 }
+if myItem=25 {
+if hud.waveblaster_level<store.waveblaster_max_level and hud.waveblaster_level>0 {instance_create_depth(x,y,depth,item_waveblaster) exit}
+}
 
 //Attempt to clean up excess orbs
 if instance_number(xp_orb_green)>165 and 40>(random(100)) {instance_create_depth(x,y,depth,item_blackhole) exit}
@@ -82,5 +85,6 @@ if instance_number(xp_orb_green)>165 and 40>(random(100)) {instance_create_depth
 if myItemBackup=1 {instance_create_depth(x,y,depth,item_pizza) exit}
 if myItemBackup=2 {instance_create_depth(x,y,depth,item_gold) exit}
 if myItemBackup=3 {instance_create_depth(x,y,depth,item_blackhole) exit}
-if myItemBackup=4 {if store.suburbs_best_minute>15 {instance_create_depth(x,y,depth,item_extinguisher) exit} else {instance_create_depth(x,y,depth,item_gold) exit}}
+if myItemBackup=4 {if store.suburbs_best_minute>=15 {instance_create_depth(x,y,depth,item_extinguisher) exit} else {instance_create_depth(x,y,depth,item_gold) exit}}
+if myItemBackup=5 {if store.lab_best_saved>=7 {instance_create_depth(x,y,depth,item_invincible_potion) exit} else {instance_create_depth(x,y,depth,item_pizza) exit}}
 }

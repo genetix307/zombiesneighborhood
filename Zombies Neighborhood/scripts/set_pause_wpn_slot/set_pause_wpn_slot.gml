@@ -215,5 +215,20 @@ myInfo="Level: "+string(hud.valari_level)+"/"+string(store.valari_max_level)+
 "  Hit Walls: "+string(hud.valari_hit_walls)+
 "  Ability: "+string(hud.valari_ability)
 }
+if image_index=29 {
+myHeader="Waveblaster"
+myInfo="Level: "+string(hud.waveblaster_level)+"/"+string(store.waveblaster_max_level)+
+"  Damage: "+string(hud.waveblaster_base_damage)+
+"  Speed: "+string(hud.waveblaster_speed)+
+"  Amount: "+string(hud.waveblaster_amount)+
+"  Area: "+string(hud.waveblaster_area)+
+"  Duration: "+string(hud.waveblaster_duration)+
+"  Cooldown: "+string(hud.waveblaster_cooldown)+
+"  Knockback: "+string(hud.waveblaster_knockback)+
+"  DMG Delay: "+string(hud.waveblaster_damaged_delay)+
+"  Pierce: "+string(hud.waveblaster_pierce)+
+"  Hit Walls: "+string(hud.waveblaster_hit_walls)+
+"  Ability: "+string(hud.waveblaster_ability)
+}
 
 }
