@@ -43,3 +43,8 @@ if my_id = 9 //Necromancy
 if store.card_necro = 0 {image_index = 1}
 if store.card_necro > 0 {image_index = 2 draw_card()}
 }
+if my_id = 10 //Revive
+{
+if store.card_revive = 0 {image_index = 1}
+if store.card_revive > 0 {image_index = 2 draw_card()}
+}

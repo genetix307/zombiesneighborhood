@@ -1,6 +1,6 @@
 // Genetix Studio
-maxHP=15
-baseSpeed=.85
+maxHP=16
+baseSpeed=.9
 myAtk=1.25
 type="winged_stinger"
 myName="Stinger"

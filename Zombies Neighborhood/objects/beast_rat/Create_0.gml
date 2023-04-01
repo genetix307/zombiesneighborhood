@@ -1,6 +1,6 @@
 // Genetix Studio
 maxHP=12
-baseSpeed=.65
+baseSpeed=.7
 myAtk=1
 type="beast_rat"
 myName="Rattle"

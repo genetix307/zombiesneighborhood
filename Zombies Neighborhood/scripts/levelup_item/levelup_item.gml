@@ -213,6 +213,21 @@ if hud.waveblaster_level = 9 {hud.waveblaster_base_damage=41 hud.waveblaster_dur
 if hud.waveblaster_level = 10 {hud.waveblaster_base_damage=44 hud.waveblaster_duration=55 hud.waveblaster_cooldown=60}
 }
 
+if item="inferno"
+{
+if hud.inferno_level < store.inferno_max_level {hud.inferno_level+=1}
+if hud.inferno_level=1 {set_slot(30,"weapon",26)}
+if hud.inferno_level = 2 {hud.inferno_base_damage=36 hud.inferno_duration=15 hud.inferno_cooldown=66}
+if hud.inferno_level = 3 {hud.inferno_base_damage=38 hud.inferno_duration=17 hud.inferno_cooldown=60 hud.inferno_amount=4}
+if hud.inferno_level = 4 {hud.inferno_base_damage=40 hud.inferno_duration=19 hud.inferno_cooldown=54 hud.inferno_amount=5}
+if hud.inferno_level = 5 {hud.inferno_base_damage=42 hud.inferno_duration=21 hud.inferno_cooldown=48}
+if hud.inferno_level = 6 {hud.inferno_base_damage=44 hud.inferno_duration=23 hud.inferno_cooldown=46}
+if hud.inferno_level = 7 {hud.inferno_base_damage=45 hud.inferno_duration=25 hud.inferno_cooldown=44}
+if hud.inferno_level = 8 {hud.inferno_base_damage=46 hud.inferno_duration=27 hud.inferno_cooldown=42}
+if hud.inferno_level = 9 {hud.inferno_base_damage=47 hud.inferno_duration=29 hud.inferno_cooldown=41}
+if hud.inferno_level = 10 {hud.inferno_base_damage=48 hud.inferno_duration=30 hud.inferno_cooldown=40}
+}
+
 if item="feather"
 {
 if hud.feather_level < store.feather_max_level {hud.feather_level+=1 hud.player_speed+=.2}

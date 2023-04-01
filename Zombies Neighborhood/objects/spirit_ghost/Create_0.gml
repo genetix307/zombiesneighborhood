@@ -1,6 +1,6 @@
 // Genetix Studio
-maxHP=12
-baseSpeed=1.3
+maxHP=13
+baseSpeed=1.35
 myAtk=.75
 type="spirt_ghost"
 myName="Ghost"

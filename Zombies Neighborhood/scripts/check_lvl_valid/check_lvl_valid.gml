@@ -129,6 +129,11 @@ if hud.waveblaster_level>=store.waveblaster_max_level {return false}
 if hud.waveblaster_level=0 and hud.weapon_slots_full=1 {return false}
 if store.mall_best_saved<7 {return false}
 }
+if slot=30 { //Inferno Shotgun
+if hud.inferno_level>=store.inferno_max_level {return false}
+if hud.shotgun_level<store.shotgun_max_level {return false}
+if hud.firebomb_level<3 {return false}
+}
 
 return true
 }

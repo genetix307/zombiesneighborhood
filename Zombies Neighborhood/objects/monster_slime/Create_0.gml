@@ -1,5 +1,5 @@
 // Genetix Studio
-maxHP=15
+maxHP=16
 baseSpeed=1
 myAtk=2
 type="monster_slime"

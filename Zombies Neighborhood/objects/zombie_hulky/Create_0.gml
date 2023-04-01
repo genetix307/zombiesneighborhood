@@ -1,7 +1,7 @@
 // Genetix Studio
-maxHP=100+(hud.level*5)
+maxHP=110+(hud.level*5)
 baseSpeed=.55
-myAtk=2.25
+myAtk=2.5
 type="zombie_hulky"
 myName="Hulky"
 

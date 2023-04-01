@@ -1,6 +1,6 @@
 // Genetix Studio
-maxHP=66
-baseSpeed=.4
+maxHP=80
+baseSpeed=.45
 myAtk=2.5
 type="monster_prototype"
 myName="Prototype"

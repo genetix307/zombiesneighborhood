@@ -2,14 +2,14 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.17"
+version="1.18"
 devMode=1
 
 //Character Stats
 player_max_hp = 30
 player_regen = 0
 player_defense = 0
-player_speed = 2.4
+player_speed = 2.3
 player_attack_damage=0
 player_critical_chance=0
 player_critical_multiplier=2
@@ -54,6 +54,8 @@ card_mastery=0
 card_lvl_mastery=1
 card_necro=0
 card_lvl_necro=1
+card_revive=0
+card_lvl_revive=1
 
 //Misc
 current_stage = 1
@@ -314,6 +316,19 @@ waveblaster_damaged_delay = 15 //Time until can damage enemy again
 waveblaster_knockback = 10 //Enemy Knockback
 waveblaster_hit_walls = "Yes" //Stop at solids
 waveblaster_ability = "None"
+//Inferno Shotgun ----------------------------------------------------
+inferno_max_level = 10 //Max Level can be upgraded in game
+inferno_base_damage = 35 //Base Damage
+inferno_speed = 12 //Move Speed
+inferno_area = 1 //Effect Size
+inferno_amount = 3 //How many created each attack loop
+inferno_duration = 13 //How long until vanishes
+inferno_pierce = "No" //Go through enemies
+inferno_cooldown = 80 //Time to set canuse to
+inferno_damaged_delay = 2 //Time until can damage enemy again
+inferno_knockback = 22 //Enemy Knockback
+inferno_hit_walls = "Yes" //Stop at solids
+inferno_ability = "None"
 
 //Ability Max Levels
 magnet_max_level=25

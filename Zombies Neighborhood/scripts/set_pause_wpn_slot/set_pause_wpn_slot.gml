@@ -230,5 +230,20 @@ myInfo="Level: "+string(hud.waveblaster_level)+"/"+string(store.waveblaster_max_
 "  Hit Walls: "+string(hud.waveblaster_hit_walls)+
 "  Ability: "+string(hud.waveblaster_ability)
 }
+if image_index=30 {
+myHeader="Inferno Shotgun"
+myInfo="Level: "+string(hud.inferno_level)+"/"+string(store.inferno_max_level)+
+"  Damage: "+string(hud.inferno_base_damage)+
+"  Speed: "+string(hud.inferno_speed)+
+"  Amount: "+string(hud.inferno_amount)+
+"  Area: "+string(hud.inferno_area)+
+"  Duration: "+string(hud.inferno_duration)+
+"  Cooldown: "+string(hud.inferno_cooldown)+
+"  Knockback: "+string(hud.inferno_knockback)+
+"  DMG Delay: "+string(hud.inferno_damaged_delay)+
+"  Pierce: "+string(hud.inferno_pierce)+
+"  Hit Walls: "+string(hud.inferno_hit_walls)+
+"  Ability: "+string(hud.inferno_ability)
+}
 
 }

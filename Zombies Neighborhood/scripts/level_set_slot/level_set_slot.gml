@@ -175,5 +175,11 @@ myInfo="Energy bursts that travel in a wave formation."
 myLevel="Level "+string(hud.waveblaster_level)+">"+string(hud.waveblaster_level+1)
 if hud.waveblaster_level=0 {isNew=1}
 }
+if my_id=30 {
+myHeader="Inferno Shotgun"
+myInfo="Short range weapon that sets foes on fire."
+myLevel="Level "+string(hud.inferno_level)+">"+string(hud.inferno_level+1)
+if hud.inferno_level=0 {isNew=1}
+}
 
 }

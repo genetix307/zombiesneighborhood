@@ -1,6 +1,6 @@
 // Genetix Studio
-maxHP=75
-baseSpeed=.4
+maxHP=80
+baseSpeed=.45
 myAtk=3
 type="skeleton_ground"
 myName="Bonejamin"

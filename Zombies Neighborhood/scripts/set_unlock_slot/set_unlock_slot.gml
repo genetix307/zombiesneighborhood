@@ -186,5 +186,10 @@ myDesc = "Fires energy burst that travels in a wave formation"
 locked=0
 } else {myDesc="Save all neighbors in Morbid Mall"} 
 }
+if my_id=30 {
+myName = "Inferno Shotgun"
+myDesc = "Short range weapon that sets foes on fire\nRequires: Shotgun lvl 10, Firebomb lvl 3"
+locked=0
+}
 
 }

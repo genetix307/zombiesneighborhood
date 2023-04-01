@@ -1,6 +1,6 @@
 // Genetix Studio
-maxHP=23
-baseSpeed=.45
+maxHP=32
+baseSpeed=.65
 myAtk=2.5
 type="zombie_gusher"
 myName="Gusher"

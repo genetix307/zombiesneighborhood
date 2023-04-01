@@ -121,4 +121,19 @@ draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_necro)) 
 }
 
+if my_id = 10 //Revive
+{
+draw_set_font(font_stats)
+draw_set_color(c_aqua)
+draw_text(x-40,y-65,"Revive") 
+draw_sprite(spr_card_art,8,x,y-28)
+draw_set_color(c_yellow)
+draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_revive),15,86)
+if store.card_lvl_revive >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
+draw_set_color(c_white)
+draw_text_ext(x-43,y+8,"One time at death revive with "+string(10+(store.card_lvl_revive*15))+"% of HP",14,88)
+draw_set_color(c_yellow)
+draw_text(x+24,y+50,"x"+string(store.card_revive)) 
+}
+
 }

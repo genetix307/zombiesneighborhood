@@ -3,7 +3,7 @@ function reset_progress(){
 store.player_max_hp = 30
 store.player_regen = 0
 store.player_defense = 0
-store.player_speed = 2.5
+store.player_speed = 2.3
 store.player_attack_damage=0
 store.player_critical_chance=0
 store.player_critical_multiplier=2
@@ -46,6 +46,8 @@ store.card_mastery=0
 store.card_lvl_mastery=1
 store.card_necro=0
 store.card_lvl_necro=1
+store.card_revive=0
+store.card_lvl_revive=1
 //Misc
 store.current_stage = 1
 store.bonus_discord=0

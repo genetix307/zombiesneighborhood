@@ -97,6 +97,8 @@ function load_game(){
 	store.card_lvl_mastery = ini_read_real( "save1", "card_lvl_mastery",store.card_lvl_mastery);
 	store.card_necro = ini_read_real( "save1", "card_necro",store.card_necro);
 	store.card_lvl_necro = ini_read_real( "save1", "card_lvl_necro",store.card_lvl_necro);
+	store.card_revive = ini_read_real( "save1", "card_revive",store.card_revive);
+	store.card_lvl_revive = ini_read_real( "save1", "card_lvl_revive",store.card_lvl_revive);
 
 	//Bonus Codes
 	store.code_payday = ini_read_real( "save1", "code_payday",store.code_payday);

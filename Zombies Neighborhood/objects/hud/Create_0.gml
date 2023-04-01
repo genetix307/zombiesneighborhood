@@ -284,6 +284,20 @@ waveblaster_damaged_delay = store.waveblaster_damaged_delay
 waveblaster_knockback = store.waveblaster_knockback
 waveblaster_hit_walls = store.waveblaster_hit_walls 
 waveblaster_ability=store.waveblaster_ability
+//Inferno Shotgun --------------------------------------------------
+inferno_level = 0
+inferno_base_damage = store.inferno_base_damage 
+inferno_speed = store.inferno_speed 
+inferno_amount = store.inferno_amount 
+inferno_area = store.inferno_area
+inferno_duration = store.inferno_duration 
+inferno_pierce = store.inferno_pierce 
+inferno_cooldown = store.inferno_cooldown 
+inferno_canuse = 0//store.inferno_cooldown 
+inferno_damaged_delay = store.inferno_damaged_delay
+inferno_knockback = store.inferno_knockback
+inferno_hit_walls = store.inferno_hit_walls 
+inferno_ability = store.inferno_ability
 
 //Ability Stats--------------------------------------
 feather_level=0
@@ -324,6 +338,11 @@ if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or st
 if store.card_slot_1 = 9 or store.card_slot_2 = 9 or store.card_slot_3 = 9 or store.card_slot_4 =9
 	{
 		instance_create_depth(player.x+40,player.y-40,depth,summon_ally)
+	}
+
+if store.card_slot_1 = 10 or store.card_slot_2 = 10 or store.card_slot_3 = 10 or store.card_slot_4 =10
+	{
+		revive =1
 	}
 
 // Initialise Viewports
