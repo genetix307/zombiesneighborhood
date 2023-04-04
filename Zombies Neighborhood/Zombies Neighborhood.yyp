@@ -384,6 +384,7 @@
     {"id":{"name":"btn_warning","path":"sprites/btn_warning/btn_warning.yy",},"order":13,},
     {"id":{"name":"font_stats","path":"fonts/font_stats/font_stats.yy",},"order":0,},
     {"id":{"name":"spr_fire_orb","path":"sprites/spr_fire_orb/spr_fire_orb.yy",},"order":8,},
+    {"id":{"name":"zombie_scientist","path":"objects/zombie_scientist/zombie_scientist.yy",},"order":25,},
     {"id":{"name":"spr_effect_open_card","path":"sprites/spr_effect_open_card/spr_effect_open_card.yy",},"order":16,},
     {"id":{"name":"enemy_healthbar","path":"scripts/enemy_healthbar/enemy_healthbar.yy",},"order":6,},
     {"id":{"name":"signposts","path":"objects/signposts/signposts.yy",},"order":5,},

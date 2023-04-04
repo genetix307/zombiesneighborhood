@@ -112,6 +112,11 @@ myName="Name: Queen Rat\nType: Boss - Ground"
 myDesc="The Mother of the rattlings, from the depths below."
 sprite_index=spr_boss_rat
 }
+if my_id=22  {
+myName="Name: Scientist\nType: Zombie - Ground"
+myDesc="Studied the cause of the outbreak, before dying from it."
+sprite_index=spr_zombie_scientist
+}
 
-total_ids=21 //Total number of enemies
+total_ids=22 //Total number of enemies
 }

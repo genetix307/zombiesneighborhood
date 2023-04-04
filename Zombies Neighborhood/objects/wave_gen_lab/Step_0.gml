@@ -10,8 +10,8 @@ if hud.run_minutes>=0 {spawn_crate-=1 if hud.player_luck>random(100) {spawn_crat
 if spawn_crate<=0 and instance_number(supply_crate)<max_crates {instance_create_depth(x,y,depth,supply_crate) spawn_crate=1700 exit}
 
 //Spawn Enemies
-//if hud.run_minutes>=0 and hud.run_seconds<55 {spawn_zombie_suit-=1}
-//if spawn_zombie_suit<=0 and instance_number(zombie_suit)<max_zombie_suit {instance_create_depth(x,y,depth,zombie_suit) spawn_zombie_suit=30}
+if hud.run_seconds>53 {spawn_zombie_scientist-=1}
+if spawn_zombie_scientist<=0 and instance_number(zombie_scientist)<max_zombie_scientist {instance_create_depth(x,y,depth,zombie_scientist) spawn_zombie_scientist=60}
 //if hud.run_minutes>=1 {spawn_zombie_cop-=1}
 //if spawn_zombie_cop<=0 and instance_number(zombie_cop)<max_zombie_cop {instance_create_depth(x,y,depth,zombie_cop) spawn_zombie_cop=120}
 if hud.run_seconds>=55 {spawn_mummy_ground-=1}
