@@ -13,3 +13,4 @@ if distance_to_object(instance_nearest(x,y,def_enemy))<120 {image_speed=1 mp_pot
 } 
 
 if distance_to_object(player)>100 {image_speed=1 mp_potential_step_object(player.x,player.y,mySpeed,def_solid)} 
+if distance_to_object(player)>500 {x=player.x y=player.y} 

@@ -24,7 +24,7 @@ myLevel="Level "+string(hud.cross_level)+">"+string(hud.cross_level+1)
 if hud.cross_level=0 {isNew=1}
 }
 if my_id=4 {
-myHeader="Feather"
+myHeader="Running Shoes"
 myInfo="Increases players move speed"
 myLevel="Level "+string(hud.feather_level)+">"+string(hud.feather_level+1)
 if hud.feather_level=0 {isNew=1}

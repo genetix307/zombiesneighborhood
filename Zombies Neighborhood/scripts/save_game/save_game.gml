@@ -105,6 +105,7 @@ function save_game(){
 	ini_write_real( "save1", "code_genetix", store.code_genetix);
 	ini_write_real( "save1", "code_cookie", store.code_cookie);
 	ini_write_real( "save1", "code_zombie", store.code_zombie);
+	ini_write_real( "save1", "code_blood", store.code_blood);
 	
 	//show_message("Game Saved")
 	ini_close();

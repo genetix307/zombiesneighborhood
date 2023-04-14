@@ -23,7 +23,7 @@ locked=0
 }
 if my_id=4 
 {
-myName = "Feather"
+myName = "Running Shoes"
 myDesc = "Increases Move Speed - How fast the player can run."
 locked=0
 }

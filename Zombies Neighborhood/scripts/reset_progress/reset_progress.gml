@@ -103,4 +103,5 @@ store.code_jackpot=0
 store.code_genetix=0
 store.code_cookie=0
 store.code_zombie=0
+store.code_blood=0
 }

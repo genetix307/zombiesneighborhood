@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.18"
+version="1.19"
 devMode=1
 
 //Character Stats
@@ -119,6 +119,7 @@ code_jackpot=0
 code_genetix=0
 code_cookie=0
 code_zombie=0
+code_blood=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------
