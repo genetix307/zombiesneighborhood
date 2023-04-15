@@ -6,10 +6,10 @@ if item="knife"
 {
 if hud.knife_level < store.knife_max_level {hud.knife_level+=1}
 if hud.knife_level=1 {set_slot(1,"weapon",0)}
-if hud.knife_level = 2 {hud.knife_base_damage=10 hud.knife_amount=2 hud.knife_duration=24 hud.knife_cooldown=52}
+if hud.knife_level = 2 {hud.knife_base_damage=12 hud.knife_amount=2 hud.knife_duration=24 hud.knife_cooldown=52}
 if hud.knife_level = 3 {hud.knife_base_damage=15 hud.knife_duration=28 hud.knife_cooldown=46}
-if hud.knife_level = 4 {hud.knife_base_damage=20 hud.knife_duration=32 hud.knife_cooldown=40}
-if hud.knife_level = 5 {hud.knife_base_damage=25 hud.knife_duration=36 hud.knife_cooldown=35}
+if hud.knife_level = 4 {hud.knife_base_damage=19 hud.knife_duration=32 hud.knife_cooldown=40}
+if hud.knife_level = 5 {hud.knife_base_damage=24 hud.knife_duration=36 hud.knife_cooldown=35}
 if hud.knife_level = 6 {hud.knife_base_damage=27 hud.knife_duration=37 hud.knife_cooldown=33}
 if hud.knife_level = 7 {hud.knife_base_damage=29 hud.knife_duration=38 hud.knife_cooldown=31}
 if hud.knife_level = 8 {hud.knife_base_damage=31 hud.knife_duration=39 hud.knife_cooldown=29}
