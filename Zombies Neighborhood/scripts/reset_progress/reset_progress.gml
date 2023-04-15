@@ -48,6 +48,8 @@ store.card_necro=0
 store.card_lvl_necro=1
 store.card_revive=0
 store.card_lvl_revive=1
+store.card_vampire=0
+store.card_lvl_vampire=1
 //Misc
 store.current_stage = 1
 store.bonus_discord=0

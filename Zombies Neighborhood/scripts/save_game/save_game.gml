@@ -96,6 +96,8 @@ function save_game(){
 	ini_write_real( "save1", "card_lvl_necro", store.card_lvl_necro);
 	ini_write_real( "save1", "card_revive", store.card_revive);
 	ini_write_real( "save1", "card_lvl_revive", store.card_lvl_revive);
+	ini_write_real( "save1", "card_vampire", store.card_vampire);
+	ini_write_real( "save1", "card_lvl_vampire", store.card_lvl_vampire);
 	//Bonus Codes
 	ini_write_real( "save1", "code_payday", store.code_payday);
 	ini_write_real( "save1", "code_cashcow", store.code_cashcow);

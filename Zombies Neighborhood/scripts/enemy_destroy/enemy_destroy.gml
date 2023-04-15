@@ -10,9 +10,15 @@ if boss=1 {audio_play_sound(sfx_boss_destroy,1,false)}
 store.enemies_killed +=1
 hud.enemies_killed +=1
 
+//Cards
 if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3
 	{
 		if ((store.card_lvl_pinata*.25)+.75)>random(100) {open_crate()}
+	}
+	
+if store.card_slot_1 = 11 or store.card_slot_2 = 11 or store.card_slot_3 = 11 or store.card_slot_4 = 11
+	{
+		if ((store.card_lvl_revive*2)+8)>random(100) {hud.player_hp+=1 instance_create_depth(x,y,depth-100,show_lifesteal)}
 	}
 
 //Quick Challenge

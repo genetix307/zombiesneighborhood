@@ -99,6 +99,8 @@ function load_game(){
 	store.card_lvl_necro = ini_read_real( "save1", "card_lvl_necro",store.card_lvl_necro);
 	store.card_revive = ini_read_real( "save1", "card_revive",store.card_revive);
 	store.card_lvl_revive = ini_read_real( "save1", "card_lvl_revive",store.card_lvl_revive);
+	store.card_vampire = ini_read_real( "save1", "card_vampire",store.card_vampire);
+	store.card_lvl_vampire = ini_read_real( "save1", "card_lvl_vampire",store.card_lvl_vampire);
 
 	//Bonus Codes
 	store.code_payday = ini_read_real( "save1", "code_payday",store.code_payday);

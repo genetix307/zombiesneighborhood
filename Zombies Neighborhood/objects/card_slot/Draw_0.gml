@@ -48,3 +48,8 @@ if my_id = 10 //Revive
 if store.card_revive = 0 {image_index = 1}
 if store.card_revive > 0 {image_index = 2 draw_card()}
 }
+if my_id = 11 //Vampire
+{
+if store.card_vampire = 0 {image_index = 1}
+if store.card_vampire > 0 {image_index = 2 draw_card()}
+}
