@@ -228,6 +228,21 @@ if hud.inferno_level = 9 {hud.inferno_base_damage=47 hud.inferno_duration=29 hud
 if hud.inferno_level = 10 {hud.inferno_base_damage=48 hud.inferno_duration=30 hud.inferno_cooldown=40}
 }
 
+if item="polygun"
+{
+if hud.polygun_level < store.polygun_max_level {hud.polygun_level+=1}
+if hud.polygun_level=1 {set_slot(31,"weapon",0)}
+if hud.polygun_level = 2 {hud.polygun_base_damage=6 hud.polygun_cooldown=186 hud.polygun_amount=11 }
+if hud.polygun_level = 3 {hud.polygun_base_damage=8 hud.polygun_cooldown=180}
+if hud.polygun_level = 4 {hud.polygun_base_damage=10 hud.polygun_cooldown=174 hud.polygun_amount=12}
+if hud.polygun_level = 5 {hud.polygun_base_damage=12 hud.polygun_cooldown=168}
+if hud.polygun_level = 6 {hud.polygun_base_damage=14 hud.polygun_cooldown=166 hud.polygun_amount=13}
+if hud.polygun_level = 7 {hud.polygun_base_damage=16 hud.polygun_cooldown=164}
+if hud.polygun_level = 8 {hud.polygun_base_damage=18 hud.polygun_cooldown=162}
+if hud.polygun_level = 9 {hud.polygun_base_damage=20 hud.polygun_cooldown=161}
+if hud.polygun_level = 10 {hud.polygun_base_damage=22 hud.polygun_cooldown=160}
+}
+
 if item="feather"
 {
 if hud.feather_level < store.feather_max_level {hud.feather_level+=1 hud.player_speed+=.2}

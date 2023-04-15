@@ -22,3 +22,6 @@ if (store.challenge_a=0 or store.challenge_b=0 or store.challenge_c=0) and store
 		{
 		store.challenge_wisdom+=1
 		}
+
+//Check Unlocks
+if hud.level>=100 and store.polygun_unlocked=0 {store.polygun_unlocked=1}

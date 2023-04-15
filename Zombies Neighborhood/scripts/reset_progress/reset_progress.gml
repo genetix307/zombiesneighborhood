@@ -56,6 +56,7 @@ store.bonus_discord=0
 store.gold = 0
 store.character=1
 store.character_unlocked = 1
+store.polygun_unlocked= 0
 //Challenges
 store.challenge_a=0
 store.challenge_b=2

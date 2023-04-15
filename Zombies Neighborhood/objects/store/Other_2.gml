@@ -68,6 +68,7 @@ gold = 0
 stage = 1 //Tier
 character=1
 character_unlocked = 1
+polygun_unlocked= 0
 
 //Challenges
 challenge_a=0
@@ -332,6 +333,19 @@ inferno_damaged_delay = 13 //Time until can damage enemy again
 inferno_knockback = 22 //Enemy Knockback
 inferno_hit_walls = "Yes" //Stop at solids
 inferno_ability = "None"
+//Polygun ----------------------------------------------------
+polygun_max_level = 10 //Max Level can be upgraded in game
+polygun_base_damage = 4 //Base Damage
+polygun_speed = 4 //Move Speed
+polygun_area = 1 //Effect Size
+polygun_amount = 10 //How many created each attack loop
+polygun_duration = 300 //How long until vanishes
+polygun_pierce = "No" //Go through enemies
+polygun_cooldown = 190 //Time to set canuse to
+polygun_damaged_delay = 3 //Time until can damage enemy again
+polygun_knockback = 1 //Enemy Knockback
+polygun_hit_walls = "No" //Stop at solids
+polygun_ability = "None"
 
 //Ability Max Levels
 magnet_max_level=25

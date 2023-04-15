@@ -134,6 +134,11 @@ if hud.inferno_level>=store.inferno_max_level {return false}
 if hud.shotgun_level<store.shotgun_max_level {return false}
 if hud.firebomb_level<3 {return false}
 }
+if slot=31 { //polygun
+if hud.polygun_level>=store.polygun_max_level {return false}
+if hud.polygun_level=0 and hud.weapon_slots_full=1 {return false}
+if store.polygun_unlocked<1 {return false}
+}
 
 return true
 }

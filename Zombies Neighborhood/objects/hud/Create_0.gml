@@ -298,6 +298,20 @@ inferno_damaged_delay = store.inferno_damaged_delay
 inferno_knockback = store.inferno_knockback
 inferno_hit_walls = store.inferno_hit_walls 
 inferno_ability = store.inferno_ability
+//Polygun Shotgun --------------------------------------------------
+polygun_level = 0
+polygun_base_damage = store.polygun_base_damage 
+polygun_speed = store.polygun_speed 
+polygun_amount = store.polygun_amount 
+polygun_area = store.polygun_area
+polygun_duration = store.polygun_duration 
+polygun_pierce = store.polygun_pierce 
+polygun_cooldown = store.polygun_cooldown 
+polygun_canuse = 0//store.polygun_cooldown 
+polygun_damaged_delay = store.polygun_damaged_delay
+polygun_knockback = store.polygun_knockback
+polygun_hit_walls = store.polygun_hit_walls 
+polygun_ability = store.polygun_ability
 
 //Ability Stats--------------------------------------
 feather_level=0

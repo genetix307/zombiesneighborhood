@@ -117,5 +117,9 @@ if my_id=30 {
 levelup_item("inferno")
 instance_create_depth(x,y-1500,depth,show_banner_message).myMessage="Inferno Shotgun Leveled Up"
 }
+if my_id=31 {
+levelup_item("polygun")
+instance_create_depth(x,y-1500,depth,show_banner_message).myMessage="Polygun Leveled Up"
+}
 
 }

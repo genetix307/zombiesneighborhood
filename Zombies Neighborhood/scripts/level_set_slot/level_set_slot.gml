@@ -181,5 +181,11 @@ myInfo="Short range weapon that sets foes on fire."
 myLevel="Level "+string(hud.inferno_level)+">"+string(hud.inferno_level+1)
 if hud.inferno_level=0 {isNew=1}
 }
+if my_id=31 {
+myHeader="Polygun"
+myInfo="Bursts of geometrically charged photon energy."
+myLevel="Level "+string(hud.polygun_level)+">"+string(hud.polygun_level+1)
+if hud.polygun_level=0 {isNew=1}
+}
 
 }

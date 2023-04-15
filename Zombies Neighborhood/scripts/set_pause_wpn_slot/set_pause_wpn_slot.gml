@@ -245,5 +245,20 @@ myInfo="Level: "+string(hud.inferno_level)+"/"+string(store.inferno_max_level)+
 "  Hit Walls: "+string(hud.inferno_hit_walls)+
 "  Ability: "+string(hud.inferno_ability)
 }
+if image_index=31 {
+myHeader="Polygun"
+myInfo="Level: "+string(hud.polygun_level)+"/"+string(store.polygun_max_level)+
+"  Damage: "+string(hud.polygun_base_damage)+
+"  Speed: "+string(hud.polygun_speed)+
+"  Amount: "+string(hud.polygun_amount)+
+"  Area: "+string(hud.polygun_area)+
+"  Duration: "+string(hud.polygun_duration)+
+"  Cooldown: "+string(hud.polygun_cooldown)+
+"  Knockback: "+string(hud.polygun_knockback)+
+"  DMG Delay: "+string(hud.polygun_damaged_delay)+
+"  Pierce: "+string(hud.polygun_pierce)+
+"  Hit Walls: "+string(hud.polygun_hit_walls)+
+"  Ability: "+string(hud.polygun_ability)
+}
 
 }

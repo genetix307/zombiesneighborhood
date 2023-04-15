@@ -29,6 +29,7 @@ function save_game(){
 	ini_write_real( "save1", "gold", store.gold);
 	ini_write_real( "save1", "character", store.character);
 	ini_write_real( "save1", "character_unlocked", store.character_unlocked);
+	ini_write_real( "save1", "polygun_unlocked", store.polygun_unlocked);
 	//Settings
 	ini_write_real( "save1", "draw_shadows", store.draw_shadows);
 	ini_write_real( "save1", "show_minihealthbar", store.show_minihealthbar);

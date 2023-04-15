@@ -187,9 +187,18 @@ locked=0
 } else {myDesc="Save all neighbors in Morbid Mall"} 
 }
 if my_id=30 {
+if store.neighbors_saved>=250 {
 myName = "Inferno Shotgun"
-myDesc = "Short range weapon that sets foes on fire\nRequires: Shotgun lvl 10, Firebomb lvl 3"
+myDesc = "Evolved Shotgun that can set fire to foes.\nRequires: Shotgun lvl 10, Firebomb lvl 3"
 locked=0
+} else {myDesc="Save 250 Neighbors"} 
+}
+if my_id=31 {
+if store.polygun_unlocked>0 {
+myName = "Polygun"
+myDesc = "Fires bursts of Geometric Proton Energy"
+locked=0
+} else {myDesc="Reach level 100 in any stage"} 
 }
 
 }
