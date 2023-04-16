@@ -2,6 +2,7 @@
 depth =-y+2
 flash = 60
 direction=random(360)
+speed=3
 
 coins = ceil(random(5))
 
