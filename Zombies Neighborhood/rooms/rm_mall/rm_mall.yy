@@ -125,6 +125,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1D18B820","properties":[],"isDnd":false,"objectId":{"name":"big_crates","path":"objects/big_crates/big_crates.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1176.0,"y":3496.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C0849B3","properties":[],"isDnd":false,"objectId":{"name":"big_crates","path":"objects/big_crates/big_crates.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1176.0,"y":3520.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_657B62D9","properties":[],"isDnd":false,"objectId":{"name":"big_crates","path":"objects/big_crates/big_crates.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1176.0,"y":3544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_528883FE","properties":[],"isDnd":false,"objectId":{"name":"totem","path":"objects/totem/totem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":376.0,"y":1160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2ED1C885","properties":[],"isDnd":false,"objectId":{"name":"totem","path":"objects/totem/totem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":5256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"bg_concrete","path":"tilesets/bg_concrete/bg_concrete.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":13,"SerialiseHeight":42,"TileCompressedData":[
 -2,-2147483648,-8,1,-5,-2147483648,-8,1,-5,-2147483648,-8,1,-5,
@@ -251,6 +253,8 @@
     {"name":"inst_1D18B820","path":"rooms/rm_mall/rm_mall.yy",},
     {"name":"inst_4C0849B3","path":"rooms/rm_mall/rm_mall.yy",},
     {"name":"inst_657B62D9","path":"rooms/rm_mall/rm_mall.yy",},
+    {"name":"inst_528883FE","path":"rooms/rm_mall/rm_mall.yy",},
+    {"name":"inst_2ED1C885","path":"rooms/rm_mall/rm_mall.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
