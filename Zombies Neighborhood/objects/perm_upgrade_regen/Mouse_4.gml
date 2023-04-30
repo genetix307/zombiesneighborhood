@@ -2,6 +2,7 @@
 if store.gold >= store.cost_regen and maxxed = 0
 {
 store.gold -= store.cost_regen
+store.scale_creep+=.1
 store.player_regen +=.10
 store.cost_regen += 75
 if store.player_regen>1.2 {store.cost_regen+=75}

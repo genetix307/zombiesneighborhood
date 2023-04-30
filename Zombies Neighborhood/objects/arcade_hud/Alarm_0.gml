@@ -8,6 +8,7 @@ game_speed+=.1
 if gameover=0
 {
 instance_create_depth(cx+240,cy,depth,arcade_coin)
+if game_speed>5and 5>random(10) {instance_create_depth(cx+240,cy-120,depth,arcade_xp)}
 if game_speed>6.2 {instance_create_depth(cx+240,cy,depth,arcade_skull)}
 if game_speed>7.5 {instance_create_depth(cx+240,cy+8,depth,arcade_skull)}
 if game_speed>8.5 {instance_create_depth(cx+240,cy-8,depth,arcade_skull)}

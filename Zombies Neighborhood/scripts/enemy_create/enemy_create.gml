@@ -7,6 +7,7 @@ if hud.level >=35 {maxHP+=store.stage*5}
 if hud.level >=45 {maxHP+=store.stage*7}
 if hud.level >=55 {maxHP+=store.stage*10}
 if store.gold>1000 {maxHP+=15}
+maxHP+=store.scale_creep
 myHP=maxHP
 baseSpeed+=hud.run_minutes/20
 mySpeed=0

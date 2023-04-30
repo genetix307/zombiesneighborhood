@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "arcade_player",
+  "name": "arcade_xp",
   "spriteId": {
-    "name": "spr_item_orb",
-    "path": "sprites/spr_item_orb/spr_item_orb.yy",
+    "name": "spr_xp_orb_green",
+    "path": "sprites/spr_xp_orb_green/spr_xp_orb_green.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,9 +28,6 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"arcade_coin","path":"objects/arcade_coin/arcade_coin.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"arcade_skull","path":"objects/arcade_skull/arcade_skull.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"arcade_xp","path":"objects/arcade_xp/arcade_xp.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

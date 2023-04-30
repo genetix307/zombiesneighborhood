@@ -69,6 +69,7 @@ stage = 1 //Tier
 character=1
 character_unlocked = 1
 polygun_unlocked= 0
+scale_creep=0
 
 //Challenges
 challenge_a=0

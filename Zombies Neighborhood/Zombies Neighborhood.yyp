@@ -425,6 +425,7 @@
     {"id":{"name":"spr_flying_stinger","path":"sprites/spr_flying_stinger/spr_flying_stinger.yy",},"order":3,},
     {"id":{"name":"spr_transistion_keyhole","path":"sprites/spr_transistion_keyhole/spr_transistion_keyhole.yy",},"order":7,},
     {"id":{"name":"spr_trees_dead","path":"sprites/spr_trees_dead/spr_trees_dead.yy",},"order":3,},
+    {"id":{"name":"arcade_xp","path":"objects/arcade_xp/arcade_xp.yy",},"order":5,},
     {"id":{"name":"show_lifesteal","path":"objects/show_lifesteal/show_lifesteal.yy",},"order":9,},
     {"id":{"name":"spr_item_infernoshotgun","path":"sprites/spr_item_infernoshotgun/spr_item_infernoshotgun.yy",},"order":34,},
     {"id":{"name":"item_iceaxe","path":"objects/item_iceaxe/item_iceaxe.yy",},"order":25,},

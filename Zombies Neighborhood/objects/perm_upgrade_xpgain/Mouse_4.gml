@@ -2,6 +2,7 @@
 if store.gold >= store.cost_xp_gain and maxxed = 0
 {
 store.gold -= store.cost_xp_gain
+store.scale_creep+=.1
 store.player_xp_gain +=.1
 store.cost_xp_gain += 25
 if store.player_xp_gain>1 {store.cost_xp_gain+=15}

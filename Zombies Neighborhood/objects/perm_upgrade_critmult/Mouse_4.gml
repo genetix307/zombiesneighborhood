@@ -2,6 +2,7 @@
 if store.gold >= store.cost_crit_multiplier and maxxed = 0
 {
 store.gold -= store.cost_crit_multiplier
+store.scale_creep+=.1
 store.player_critical_multiplier +=.1
 store.cost_crit_multiplier += 25
 if store.player_critical_multiplier>2.5 {store.cost_crit_multiplier+=20}

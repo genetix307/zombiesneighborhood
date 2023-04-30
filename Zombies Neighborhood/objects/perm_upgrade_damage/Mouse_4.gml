@@ -2,6 +2,7 @@
 if store.gold >= store.cost_damage and maxxed = 0
 {
 store.gold -= store.cost_damage
+store.scale_creep+=.1
 store.player_attack_damage +=.25
 store.cost_damage += 20
 if store.player_attack_damage > 2 {store.cost_damage +=10}
