@@ -255,7 +255,7 @@ if hud.shield_level = 1 {set_slot(5,"ability",0)}
 }
 if item="magnet"
 {
-if hud.magnet_level < store.magnet_max_level {hud.magnet_level+=1 hud.player_attraction+=5}
+if hud.magnet_level < store.magnet_max_level {hud.magnet_level+=1 hud.player_attraction+=7}
 if hud.magnet_level = 1 {set_slot(6,"ability",0)}
 }
 if item="potion"

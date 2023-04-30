@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_create_depth(player.x,player.y-150,player.depth,arcade_machine)
-
-
-
+depth =-10001
+image_alpha = 5

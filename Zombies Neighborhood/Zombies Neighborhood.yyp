@@ -461,6 +461,7 @@
     {"id":{"name":"sfx_arcade","path":"sounds/sfx_arcade/sfx_arcade.yy",},"order":28,},
     {"id":{"name":"level_upgrade","path":"scripts/level_upgrade/level_upgrade.yy",},"order":10,},
     {"id":{"name":"cars","path":"objects/cars/cars.yy",},"order":8,},
+    {"id":{"name":"show_revived","path":"objects/show_revived/show_revived.yy",},"order":21,},
     {"id":{"name":"wave_gen_mall","path":"objects/wave_gen_mall/wave_gen_mall.yy",},"order":5,},
     {"id":{"name":"item_scroll","path":"objects/item_scroll/item_scroll.yy",},"order":12,},
     {"id":{"name":"spr_com_console","path":"sprites/spr_com_console/spr_com_console.yy",},"order":21,},

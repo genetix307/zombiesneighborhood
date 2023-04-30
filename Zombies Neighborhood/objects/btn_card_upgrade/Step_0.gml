@@ -11,6 +11,7 @@ if show_menu_cards.card_selected = 7 and store.card_critgold >=4 and store.card_
 if show_menu_cards.card_selected = 8 and store.card_mastery >=4 and store.card_lvl_mastery<5 {image_index = 0}
 if show_menu_cards.card_selected = 9 and store.card_necro >=4 and store.card_lvl_necro<5 {image_index = 0}
 if show_menu_cards.card_selected = 10 and store.card_revive >=4 and store.card_lvl_revive<5 {image_index = 0}
+if show_menu_cards.card_selected = 11 and store.card_vampire >=4 and store.card_lvl_vampire<5 {image_index = 0}
 }
 	
 

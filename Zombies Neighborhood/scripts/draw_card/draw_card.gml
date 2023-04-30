@@ -146,7 +146,7 @@ draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_vampire),15,86)
 if store.card_lvl_vampire >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,string((store.card_lvl_revive*2)+8)+"% to steal HP when killing enemy",14,88)
+draw_text_ext(x-43,y+8,string((store.card_lvl_vampire*2)+8)+"% to steal HP when killing enemy",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_vampire)) 
 }

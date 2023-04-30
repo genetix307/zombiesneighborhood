@@ -78,3 +78,11 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
+if myResult = "bonfire" and store.code_bonfire = 0
+{
+reward = 150
+store.code_bonfire = 1
+store.gold += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
+save_game()
+}

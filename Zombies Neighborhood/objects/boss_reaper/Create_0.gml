@@ -1,5 +1,5 @@
 // Genetix Studio
-maxHP=1000*hud.level
+maxHP=1300*hud.level
 baseSpeed=1
 myAtk=9999
 type="boss_reaper"

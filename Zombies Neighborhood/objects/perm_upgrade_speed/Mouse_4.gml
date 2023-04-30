@@ -3,7 +3,7 @@ if store.gold >= store.cost_speed and maxxed = 0
 {
 store.gold -= store.cost_speed
 store.player_speed +=.1
-store.cost_speed += 30
+store.cost_speed += 50
 if store.player_speed>1.5 {store.cost_speed+=20}
 if store.player_speed>2 {store.cost_speed+=35}
 if store.player_speed>2.3 {store.cost_speed+=50}

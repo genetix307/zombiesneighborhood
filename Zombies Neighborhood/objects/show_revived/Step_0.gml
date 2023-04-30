@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_create_depth(player.x,player.y-150,player.depth,arcade_machine)
-
-
-
+y-=.4
+image_alpha -= .1
+if image_alpha < 0 {instance_destroy()}

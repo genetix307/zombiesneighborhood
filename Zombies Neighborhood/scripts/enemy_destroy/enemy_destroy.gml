@@ -18,7 +18,7 @@ if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or st
 	
 if store.card_slot_1 = 11 or store.card_slot_2 = 11 or store.card_slot_3 = 11 or store.card_slot_4 = 11
 	{
-		if ((store.card_lvl_revive*2)+8)>random(100) {hud.player_hp+=1 instance_create_depth(x,y,depth-100,show_lifesteal)}
+		if ((store.card_lvl_vampire*2)+8)>random(100) {hud.player_hp+=1 instance_create_depth(x,y,depth-100,show_lifesteal)}
 	}
 
 //Quick Challenge
