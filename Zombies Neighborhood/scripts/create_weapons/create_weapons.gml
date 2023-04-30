@@ -91,7 +91,7 @@ if (hud.wpn_slot_1=29 or hud.wpn_slot_2=29 or hud.wpn_slot_3=29 or hud.wpn_slot_
 if hud.waveblaster_canuse>0 {hud.waveblaster_canuse-=1}
 if hud.waveblaster_canuse <=0 {repeat hud.waveblaster_amount instance_create_depth(x,y,depth-1,wpn_waveblaster_bullet) hud.waveblaster_canuse=hud.waveblaster_cooldown}
 }
-//Shotgun
+//Inferno Shotgun
 if (hud.wpn_slot_1=30 or hud.wpn_slot_2=30 or hud.wpn_slot_3=30 or hud.wpn_slot_4=30 or hud.wpn_slot_5=30)
 {
 if hud.inferno_canuse>0 {hud.inferno_canuse-=1}

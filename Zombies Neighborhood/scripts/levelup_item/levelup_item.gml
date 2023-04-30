@@ -243,7 +243,7 @@ if hud.polygun_level = 9 {hud.polygun_base_damage=20 hud.polygun_cooldown=161}
 if hud.polygun_level = 10 {hud.polygun_base_damage=22 hud.polygun_cooldown=160}
 }
 
-if item="feather"
+if item="feather" //Changed to Running Shoes
 {
 if hud.feather_level < store.feather_max_level {hud.feather_level+=1 hud.player_speed+=.2}
 if hud.feather_level = 1 {set_slot(4,"ability",0)}

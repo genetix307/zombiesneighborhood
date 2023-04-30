@@ -8,10 +8,10 @@ hud.next_level = hud.level*3+(floor(hud.level/10))
 if hud.level >=20 {hud.next_level=hud.level*4+(floor(hud.level/10))}
 if hud.level >=30 {hud.next_level=hud.level*5+(floor(hud.level/10))}
 if hud.level >=40 {hud.next_level=hud.level*6+(floor(hud.level/10))}
-if hud.level >=50 {hud.next_level=hud.level*7+(floor(hud.level/10))}
+if hud.level >=55 {hud.next_level=hud.level*7+(floor(hud.level/10))}
 if hud.level >=60 {hud.next_level=hud.level*8+(floor(hud.level/10))}
-if hud.level >=70 {hud.next_level=hud.level*9+(floor(hud.level/10))}
-if hud.level >=80 {hud.next_level=hud.level*10+(floor(hud.level/10))}
+if hud.level >=65 {hud.next_level=hud.level*9+(floor(hud.level/10))}
+if hud.level >=70 {hud.next_level=hud.level*10+(floor(hud.level/10))}
 audio_play_sound(sfx_levelup,1,false)
 ray_angle = 0
 

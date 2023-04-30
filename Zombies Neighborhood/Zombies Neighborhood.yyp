@@ -420,6 +420,7 @@
     {"id":{"name":"card_open","path":"objects/card_open/card_open.yy",},"order":0,},
     {"id":{"name":"btn_clear_progress","path":"objects/btn_clear_progress/btn_clear_progress.yy",},"order":0,},
     {"id":{"name":"sfx_slash_hit","path":"sounds/sfx_slash_hit/sfx_slash_hit.yy",},"order":3,},
+    {"id":{"name":"spr_item_slogun","path":"sprites/spr_item_slogun/spr_item_slogun.yy",},"order":37,},
     {"id":{"name":"wpn_revolver_bullet","path":"objects/wpn_revolver_bullet/wpn_revolver_bullet.yy",},"order":8,},
     {"id":{"name":"boss_extermus","path":"objects/boss_extermus/boss_extermus.yy",},"order":17,},
     {"id":{"name":"spr_flying_stinger","path":"sprites/spr_flying_stinger/spr_flying_stinger.yy",},"order":3,},
