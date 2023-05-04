@@ -30,6 +30,7 @@ function save_game(){
 	ini_write_real( "save1", "character", store.character);
 	ini_write_real( "save1", "character_unlocked", store.character_unlocked);
 	ini_write_real( "save1", "polygun_unlocked", store.polygun_unlocked);
+	ini_write_real( "save1", "slogun_unlocked", store.slogun_unlocked);
 	ini_write_real( "save1", "scale_creep", store.scale_creep);
 	//Settings
 	ini_write_real( "save1", "draw_shadows", store.draw_shadows);

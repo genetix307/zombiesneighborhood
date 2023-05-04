@@ -242,6 +242,20 @@ if hud.polygun_level = 8 {hud.polygun_base_damage=18 hud.polygun_cooldown=162}
 if hud.polygun_level = 9 {hud.polygun_base_damage=20 hud.polygun_cooldown=161}
 if hud.polygun_level = 10 {hud.polygun_base_damage=22 hud.polygun_cooldown=160}
 }
+if item="slogun"
+{
+if hud.slogun_level < store.slogun_max_level {hud.slogun_level+=1}
+if hud.slogun_level=1 {set_slot(32,"weapon",0)}
+if hud.slogun_level = 2 {hud.slogun_base_damage=16 hud.slogun_duration=85 hud.slogun_cooldown=66 hud.slogun_area=1.25}
+if hud.slogun_level = 3 {hud.slogun_base_damage=20 hud.slogun_duration=88 hud.slogun_cooldown=60 hud.slogun_amount=2}
+if hud.slogun_level = 4 {hud.slogun_base_damage=24 hud.slogun_duration=91 hud.slogun_cooldown=54 hud.slogun_area=1.4}
+if hud.slogun_level = 5 {hud.slogun_base_damage=26 hud.slogun_duration=94 hud.slogun_cooldown=48 hud.slogun_amount=3}
+if hud.slogun_level = 6 {hud.slogun_base_damage=28 hud.slogun_duration=96 hud.slogun_cooldown=46 hud.slogun_area=1.5}
+if hud.slogun_level = 7 {hud.slogun_base_damage=30 hud.slogun_duration=98 hud.slogun_cooldown=44 hud.slogun_amount=4}
+if hud.slogun_level = 8 {hud.slogun_base_damage=32 hud.slogun_duration=100 hud.slogun_cooldown=42 hud.slogun_area=1.6}
+if hud.slogun_level = 9 {hud.slogun_base_damage=34 hud.slogun_duration=102 hud.slogun_cooldown=41 hud.slogun_amount=5}
+if hud.slogun_level = 10 {hud.slogun_base_damage=36 hud.slogun_duration=104 hud.slogun_cooldown=40 hud.slogun_area=1.75}
+}
 
 if item="feather" //Changed to Running Shoes
 {

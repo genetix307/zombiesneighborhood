@@ -1,5 +1,5 @@
 function open_crate(){
-myItem= ceil(random(26.99)) //*Max number of items
+myItem= ceil(random(27.99)) //*Max number of items
 myItemBackup= ceil(random(4.99)) //Max Backup items
 
 if myItem=1 {
@@ -72,7 +72,7 @@ if myItem=23 {
 if hud.shotgun_level<store.shotgun_max_level and hud.shotgun_level>0 {instance_create_depth(x,y,depth,item_shotgun) exit}
 }
 if myItem=24{
-if hud.valari_level<store.valari_max_level and hud.valari_level>0 {instance_create_depth(x,y,depth,spr_item_valari) exit}
+if hud.valari_level<store.valari_max_level and hud.valari_level>0 {instance_create_depth(x,y,depth,item_valari) exit}
 }
 if myItem=25 {
 if hud.waveblaster_level<store.waveblaster_max_level and hud.waveblaster_level>0 {instance_create_depth(x,y,depth,item_waveblaster) exit}
@@ -82,6 +82,9 @@ if hud.inferno_level<store.inferno_max_level and hud.inferno_level>0 {instance_c
 }
 if myItem=27 {
 if hud.polygun_level<store.polygun_max_level and hud.polygun_level>0 {instance_create_depth(x,y,depth,item_polygun) exit}
+}
+if myItem=28 {
+if hud.slogun_level<store.slogun_max_level and hud.slogun_level>0 {instance_create_depth(x,y,depth,item_slogun) exit}
 }
 
 //Attempt to clean up excess orbs

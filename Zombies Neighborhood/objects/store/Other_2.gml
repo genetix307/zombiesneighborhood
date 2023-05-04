@@ -69,6 +69,7 @@ stage = 1 //Tier
 character=1
 character_unlocked = 1
 polygun_unlocked= 0
+slogun_unlocked=0
 scale_creep=0
 
 //Challenges
@@ -348,6 +349,19 @@ polygun_damaged_delay = 3 //Time until can damage enemy again
 polygun_knockback = 1 //Enemy Knockback
 polygun_hit_walls = "No" //Stop at solids
 polygun_ability = "None"
+//Slogun----------------------------------------------------
+slogun_max_level = 10 //Max Level can be upgraded in game
+slogun_base_damage = 14 //Base Damage
+slogun_speed = 7 //Move Speed
+slogun_area = 1 //Effect Size
+slogun_amount = 1 //How many created each attack loop
+slogun_duration = 82 //How long until vanishes
+slogun_pierce = "No" //Go through enemies
+slogun_cooldown = 72 //Time to set canuse to
+slogun_damaged_delay = 10 //Time until can damage enemy again
+slogun_knockback = 15 //Enemy Knockback
+slogun_hit_walls = "Yes" //Stop at solids
+slogun_ability = "slow"
 
 //Ability Max Levels
 magnet_max_level=25

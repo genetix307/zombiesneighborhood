@@ -11,4 +11,7 @@ if store.card_slot_1 = 9 or store.card_slot_2 = 9 or store.card_slot_3 = 9 or st
 
 alarm[0] = 60 //Timer Increment
 
+//Check Unlocks
+if hud.run_minutes>=20 and store.slogun_unlocked=0 {store.slogun_unlocked=1}
+
 

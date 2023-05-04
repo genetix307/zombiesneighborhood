@@ -103,5 +103,11 @@ if (hud.wpn_slot_1=31 or hud.wpn_slot_2=31 or hud.wpn_slot_3=31 or hud.wpn_slot_
 if hud.polygun_canuse>0 {hud.polygun_canuse-=1}
 if hud.polygun_canuse <=0 {repeat hud.polygun_amount instance_create_depth(x,y,depth-1,wpn_polygun_bullet) hud.polygun_canuse=hud.polygun_cooldown}
 }
+//slogun
+if (hud.wpn_slot_1=32 or hud.wpn_slot_2=32 or hud.wpn_slot_3=32 or hud.wpn_slot_4=32 or hud.wpn_slot_5=32)
+{
+if hud.slogun_canuse>0 {hud.slogun_canuse-=1}
+if hud.slogun_canuse <=0 {repeat hud.slogun_amount instance_create_depth(x,y,depth-1,wpn_slogun_bullet) hud.slogun_canuse=hud.slogun_cooldown}
+}
 
 }

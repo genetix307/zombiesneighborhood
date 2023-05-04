@@ -187,5 +187,11 @@ myInfo="Bursts of geometrically charged photon energy."
 myLevel="Level "+string(hud.polygun_level)+">"+string(hud.polygun_level+1)
 if hud.polygun_level=0 {isNew=1}
 }
+if my_id=32 {
+myHeader="Slogun"
+myInfo="Slows the Undead down in their tracks."
+myLevel="Level "+string(hud.slogun_level)+">"+string(hud.slogun_level+1)
+if hud.slogun_level=0 {isNew=1}
+}
 
 }

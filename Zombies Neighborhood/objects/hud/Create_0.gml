@@ -312,6 +312,20 @@ polygun_damaged_delay = store.polygun_damaged_delay
 polygun_knockback = store.polygun_knockback
 polygun_hit_walls = store.polygun_hit_walls 
 polygun_ability = store.polygun_ability
+//Slogun--------------------------------------------------
+slogun_level = 0
+slogun_base_damage = store.slogun_base_damage 
+slogun_speed = store.slogun_speed 
+slogun_amount = store.slogun_amount 
+slogun_area = store.slogun_area
+slogun_duration = store.slogun_duration 
+slogun_pierce = store.slogun_pierce 
+slogun_cooldown = store.slogun_cooldown 
+slogun_canuse = 0//store.slogun_cooldown 
+slogun_damaged_delay = store.slogun_damaged_delay
+slogun_knockback = store.slogun_knockback
+slogun_hit_walls = store.slogun_hit_walls 
+slogun_ability = store.slogun_ability
 
 //Ability Stats--------------------------------------
 feather_level=0

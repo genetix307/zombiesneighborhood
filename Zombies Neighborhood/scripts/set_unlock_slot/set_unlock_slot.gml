@@ -200,5 +200,12 @@ myDesc = "Fires bursts of Geometric Proton Energy"
 locked=0
 } else {myDesc="Reach level 100 in any stage"} 
 }
+if my_id=32 {
+if store.slogun_unlocked>0 {
+myName = "Slogun"
+myDesc = "Slows enemies in their tracks"
+locked=0
+} else {myDesc="Survive 20 minutes in any stage"} 
+}
 
 }

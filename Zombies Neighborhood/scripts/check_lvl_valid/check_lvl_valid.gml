@@ -139,6 +139,11 @@ if hud.polygun_level>=store.polygun_max_level {return false}
 if hud.polygun_level=0 and hud.weapon_slots_full=1 {return false}
 if store.polygun_unlocked<1 {return false}
 }
+if slot=32 { //slogun
+if hud.slogun_level>=store.slogun_max_level {return false}
+if hud.slogun_level=0 and hud.weapon_slots_full=1 {return false}
+if store.slogun_unlocked<1 {return false}
+}
 
 return true
 }

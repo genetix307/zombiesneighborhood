@@ -11,6 +11,7 @@ function load_game(){
 	store.character = ini_read_real( "save1", "character",store.character);
 	store.character_unlocked = ini_read_real( "save1", "character_unlocked",store.character_unlocked);
 	store.polygun_unlocked = ini_read_real( "save1", "polygun_unlocked",store.polygun_unlocked);
+	store.slogun_unlocked = ini_read_real( "save1", "slogun_unlocked",store.slogun_unlocked);
 	store.scale_creep = ini_read_real( "save1", "scale_creep",store.scale_creep);
 	//Character Stats
 	store.player_max_hp = ini_read_real( "save1", "player_max_hp",store.player_max_hp);

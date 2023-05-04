@@ -260,5 +260,20 @@ myInfo="Level: "+string(hud.polygun_level)+"/"+string(store.polygun_max_level)+
 "  Hit Walls: "+string(hud.polygun_hit_walls)+
 "  Ability: "+string(hud.polygun_ability)
 }
+if image_index=32 {
+myHeader="Slogun"
+myInfo="Level: "+string(hud.slogun_level)+"/"+string(store.slogun_max_level)+
+"  Damage: "+string(hud.slogun_base_damage)+
+"  Speed: "+string(hud.slogun_speed)+
+"  Amount: "+string(hud.slogun_amount)+
+"  Area: "+string(hud.slogun_area)+
+"  Duration: "+string(hud.slogun_duration)+
+"  Cooldown: "+string(hud.slogun_cooldown)+
+"  Knockback: "+string(hud.slogun_knockback)+
+"  DMG Delay: "+string(hud.slogun_damaged_delay)+
+"  Pierce: "+string(hud.slogun_pierce)+
+"  Hit Walls: "+string(hud.slogun_hit_walls)+
+"  Ability: "+string(hud.slogun_ability)
+}
 
 }

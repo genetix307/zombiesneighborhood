@@ -121,5 +121,9 @@ if my_id=31 {
 levelup_item("polygun")
 instance_create_depth(x,y-1500,depth,show_banner_message).myMessage="Polygun Leveled Up"
 }
+if my_id=32 {
+levelup_item("slogun")
+instance_create_depth(x,y-1500,depth,show_banner_message).myMessage="Slogun Leveled Up"
+}
 
 }
