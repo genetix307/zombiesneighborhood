@@ -2,14 +2,14 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.20"
+version="1.21"
 devMode=1
 
 //Character Stats
 player_max_hp = 30
 player_regen = 0
 player_defense = 0
-player_speed = 2.3
+player_speed = 2.4
 player_attack_damage=0
 player_critical_chance=0
 player_critical_multiplier=2
@@ -105,6 +105,10 @@ mall_best_minute=0
 mall_best_second=0
 mall_best_level=0
 mall_best_saved=0
+airport_best_minute=0
+airport_best_second=0
+airport_best_level=0
+airport_best_saved=0
 
 //Settings
 draw_shadows = 1
@@ -179,7 +183,7 @@ firebomb_cooldown = 300 //Time to set canuse to
 firebomb_damaged_delay = 18 //Time until can damage enemy again
 firebomb_knockback = 0 //Enemy Knockback
 firebomb_hit_walls = "No" //Stop at solids
-firebomb_ability = "fire"
+firebomb_ability = "Fire"
 //Magic Orb ----------------------------------------------------
 magicorb_max_level = 10 //Max Level can be upgraded in game
 magicorb_base_damage = 8 //Base Damage
@@ -257,7 +261,7 @@ fireorb_cooldown = 720 //Time to set canuse to
 fireorb_damaged_delay = 20 //Time until can damage enemy again
 fireorb_knockback = 1 //Enemy Knockback
 fireorb_hit_walls = "No" //Stop at solids
-fireorb_ability = "fire"
+fireorb_ability = "Fire"
 //Ice Axe ----------------------------------------------------
 iceaxe_max_level = 10 //Max Level can be upgraded in game
 iceaxe_base_damage = 25 //Base Damage
@@ -270,7 +274,7 @@ iceaxe_cooldown = 155 //Time to set canuse to
 iceaxe_damaged_delay = 25 //Time until can damage enemy again
 iceaxe_knockback = 15 //Enemy Knockback
 iceaxe_hit_walls = "Yes" //Stop at solids
-iceaxe_ability = "ice"
+iceaxe_ability = "Ice"
 //Freeze Ray ----------------------------------------------------
 freezeray_max_level = 10 //Max Level can be upgraded in game
 freezeray_base_damage = 5 //Base Damage
@@ -283,7 +287,7 @@ freezeray_cooldown = 72 //Time to set canuse to
 freezeray_damaged_delay = 10 //Time until can damage enemy again
 freezeray_knockback = 15 //Enemy Knockback
 freezeray_hit_walls = "Yes" //Stop at solids
-freezeray_ability = "None"
+freezeray_ability = "Ice"
 //Shotgun ----------------------------------------------------
 shotgun_max_level = 10 //Max Level can be upgraded in game
 shotgun_base_damage = 8 //Base Damage
@@ -335,7 +339,7 @@ inferno_cooldown = 80 //Time to set canuse to
 inferno_damaged_delay = 13 //Time until can damage enemy again
 inferno_knockback = 22 //Enemy Knockback
 inferno_hit_walls = "Yes" //Stop at solids
-inferno_ability = "None"
+inferno_ability = "Fire"
 //Polygun ----------------------------------------------------
 polygun_max_level = 10 //Max Level can be upgraded in game
 polygun_base_damage = 4 //Base Damage
@@ -361,7 +365,7 @@ slogun_cooldown = 72 //Time to set canuse to
 slogun_damaged_delay = 10 //Time until can damage enemy again
 slogun_knockback = 15 //Enemy Knockback
 slogun_hit_walls = "Yes" //Stop at solids
-slogun_ability = "slow"
+slogun_ability = "Slow"
 
 //Ability Max Levels
 magnet_max_level=25

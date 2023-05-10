@@ -91,6 +91,10 @@ store.mall_best_minute=0
 store.mall_best_second=0
 store.mall_best_level=0
 store.mall_best_saved=0
+store.airport_best_minute=0
+store.airport_best_second=0
+store.airport_best_level=0
+store.airport_best_saved=0
 //Settings
 store.draw_shadows = 1
 store.show_minihealthbar = 1

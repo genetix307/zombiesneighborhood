@@ -72,6 +72,10 @@ function save_game(){
 	ini_write_real( "save1", "mall_best_second", store.mall_best_second);
 	ini_write_real( "save1", "mall_best_level", store.mall_best_level);
 	ini_write_real( "save1", "mall_best_saved", store.mall_best_saved);
+	ini_write_real( "save1", "airport_best_minute", store.airport_best_minute);
+	ini_write_real( "save1", "airport_best_second", store.airport_best_second);
+	ini_write_real( "save1", "airport_best_level", store.airport_best_level);
+	ini_write_real( "save1", "airport_best_saved", store.airport_best_saved);
 	//cards
 	ini_write_real( "save1", "slot_2_unlocked", store.slot_2_unlocked);
 	ini_write_real( "save1", "slot_3_unlocked", store.slot_3_unlocked);

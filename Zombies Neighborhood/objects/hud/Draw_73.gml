@@ -68,6 +68,21 @@ if gameover = 1 {
 	if store.lab_best_second<10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.lab_best_minute)+":0"+string(store.lab_best_second),c_white,c_white,c_silver,c_silver,1)}
 	if store.lab_best_second>=10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.lab_best_minute)+":"+string(store.lab_best_second),c_white,c_white,c_silver,c_silver,1)}
 	}
+	if store.current_stage = 3 {
+	draw_text_color(cx+162,cy+200,"Creepy Cemetary",c_white,c_white,c_silver,c_silver,1)
+	if store.cemetary_best_second<10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.cemetary_best_minute)+":0"+string(store.cemetary_best_second),c_white,c_white,c_silver,c_silver,1)}
+	if store.cemetary_best_second>=10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.cemetary_best_minute)+":"+string(store.cemetary_best_second),c_white,c_white,c_silver,c_silver,1)}
+	}
+	if store.current_stage = 4 {
+	draw_text_color(cx+162,cy+200,"Morbid Mall",c_white,c_white,c_silver,c_silver,1)
+	if store.mall_best_second<10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.mall_best_minute)+":0"+string(store.mall_best_second),c_white,c_white,c_silver,c_silver,1)}
+	if store.mall_best_second>=10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.mall_best_minute)+":"+string(store.mall_best_second),c_white,c_white,c_silver,c_silver,1)}
+	}
+	if store.current_stage = 5 {
+	draw_text_color(cx+162,cy+200,"Alien Airport",c_white,c_white,c_silver,c_silver,1)
+	if store.airport_best_second<10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.airport_best_minute)+":0"+string(store.airport_best_second),c_white,c_white,c_silver,c_silver,1)}
+	if store.airport_best_second>=10 {draw_text_color(cx+162,cy+220,"Best Run: "+string(store.airport_best_minute)+":"+string(store.airport_best_second),c_white,c_white,c_silver,c_silver,1)}
+	}
 	if store.character=1 {draw_text_color(cx+162,cy+240,"Character: Zak",c_white,c_white,c_silver,c_silver,1)}
 	if store.character=2 {draw_text_color(cx+162,cy+240,"Character: Jill",c_white,c_white,c_silver,c_silver,1)}
 	if run_seconds<10 {draw_text_color(cx+93,cy+284,"Run time: "+string(run_minutes)+":0"+string(run_seconds),c_white,c_white,c_silver,c_silver,1)}

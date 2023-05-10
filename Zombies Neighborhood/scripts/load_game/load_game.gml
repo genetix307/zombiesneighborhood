@@ -75,6 +75,10 @@ function load_game(){
 	store.mall_best_second = ini_read_real( "save1", "mall_best_second",store.mall_best_second);
 	store.mall_best_level = ini_read_real( "save1", "mall_best_level",store.mall_best_level);
 	store.mall_best_saved = ini_read_real( "save1", "mall_best_saved",store.mall_best_saved);
+	store.airport_best_minute = ini_read_real( "save1", "airport_best_minute",store.airport_best_minute);
+	store.airport_best_second = ini_read_real( "save1", "airport_best_second",store.airport_best_second);
+	store.airport_best_level = ini_read_real( "save1", "airport_best_level",store.airport_best_level);
+	store.airport_best_saved = ini_read_real( "save1", "airport_best_saved",store.airport_best_saved);
 	//cards
 	store.slot_2_unlocked = ini_read_real( "save1", "slot_2_unlocked",store.slot_2_unlocked);
 	store.slot_3_unlocked = ini_read_real( "save1", "slot_3_unlocked",store.slot_3_unlocked);

@@ -86,7 +86,7 @@ draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_critgold),15,86)
 if store.card_lvl_critgold >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Earn "+string((store.card_lvl_critgold))+" Gold for each Critical Kill. Critical % +1",14,88)
+draw_text_ext(x-43,y+8,"Earn "+string((store.card_lvl_critgold))+" Gold for each Critical Kill. Critical +.10%",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_critgold)) 
 }

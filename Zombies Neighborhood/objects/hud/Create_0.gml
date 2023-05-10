@@ -10,6 +10,15 @@ if room=rm_laboratory {instance_create_depth(x,y,depth,wave_gen_lab) audio_play_
 if room=rm_cemetary {instance_create_depth(x,y,depth,wave_gen_cemetary) audio_play_sound(bgm_cemetary,1,true)}
 if room=rm_mall {instance_create_depth(x,y,depth,wave_gen_mall) audio_play_sound(bgm_mall,1,true)}
 
+//New player bonus
+if store.games_played<=1 {
+instance_create_depth(player.x+20,player.y-450,depth,supply_crate)
+instance_create_depth(player.x-60,player.y+410,depth,supply_crate)
+instance_create_depth(player.x+360,player.y-50,depth,supply_crate)
+instance_create_depth(player.x-450,player.y-20,depth,supply_crate)
+instance_create_depth(player.x-45,player.y-20,depth,item_knife)
+	} 
+
 //In game settings
 paused=0
 show_menu=0
@@ -353,7 +362,7 @@ if store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or st
 	}
 if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 =7
 	{
-		player_critical_chance+=1
+		player_critical_chance+=.1
 	}
 if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or store.card_slot_4 =8
 	{
