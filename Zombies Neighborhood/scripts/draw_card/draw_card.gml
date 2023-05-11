@@ -151,4 +151,19 @@ draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_vampire)) 
 }
 
+if my_id = 12 //Evil Creed
+{
+draw_set_font(font_stats)
+draw_set_color(c_aqua)
+draw_text(x-40,y-65,"Evil Creed") 
+draw_sprite(spr_card_art,10,x,y-28)
+draw_set_color(c_yellow)
+draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_evilcreed),15,86)
+if store.card_lvl_evilcreed >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
+draw_set_color(c_white)
+draw_text_ext(x-43,y+8,"+"+string((store.card_lvl_evilcreed*5)+5)+"% Enemy strength,+"+string((store.card_lvl_evilcreed*2)+3)+"% Enemy Gold bonus",14,88)
+draw_set_color(c_yellow)
+draw_text(x+24,y+50,"x"+string(store.card_evilcreed)) 
+}
+
 }

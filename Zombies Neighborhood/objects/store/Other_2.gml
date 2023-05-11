@@ -58,6 +58,8 @@ card_revive=0
 card_lvl_revive=1
 card_vampire=0
 card_lvl_vampire=1
+card_evilcreed=0
+card_lvl_evilcreed=1
 
 //Misc
 current_stage = 1

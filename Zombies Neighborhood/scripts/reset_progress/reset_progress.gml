@@ -50,6 +50,9 @@ store.card_revive=0
 store.card_lvl_revive=1
 store.card_vampire=0
 store.card_lvl_vampire=1
+store.card_evilcreed=0
+store.card_lvl_evilcreed=1
+
 //Misc
 store.current_stage = 1
 store.bonus_discord=0
