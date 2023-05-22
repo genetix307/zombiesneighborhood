@@ -117,4 +117,5 @@ store.code_cookie=0
 store.code_zombie=0
 store.code_blood=0
 store.code_bonfire=0
+store.code_midgar=0
 }

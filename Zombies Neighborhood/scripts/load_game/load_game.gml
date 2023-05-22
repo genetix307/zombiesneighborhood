@@ -122,6 +122,7 @@ function load_game(){
 	store.code_zombie = ini_read_real( "save1", "code_zombie",store.code_zombie);
 	store.code_blood = ini_read_real( "save1", "code_blood",store.code_blood);
 	store.code_bonfire = ini_read_real( "save1", "code_bonfire",store.code_bonfire);
+	store.code_midgar = ini_read_real( "save1", "code_midgar",store.code_midgar);
 	
 	//show_message("Game Loaded")
 	ini_close();

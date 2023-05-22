@@ -9,7 +9,7 @@ draw_text(x-40,y-65,"Metal Detector")
 draw_sprite(spr_card_art,0,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_metal),15,86)
-if store.card_lvl_metal >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
+if store.card_lvl_metal >=10 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
 draw_text_ext(x-43,y+8,"Get up to +"+string(store.card_lvl_metal*5)+" gold from Coins found",14,88)
 draw_set_color(c_yellow)
@@ -39,7 +39,7 @@ draw_text(x-40,y-65,"Go Fetch")
 draw_sprite(spr_card_art,2,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_fetch),15,86)
-if store.card_lvl_fetch >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
+if store.card_lvl_fetch >=10 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
 draw_text_ext(x-43,y+8,"Get Dog with "+string(store.card_lvl_fetch*2)+" damage bite.",14,88)
 draw_set_color(c_yellow)
@@ -69,7 +69,7 @@ draw_text(x-40,y-65,"Repulse")
 draw_sprite(spr_card_art,4,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_repulse),15,86)
-if store.card_lvl_repulse >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
+if store.card_lvl_repulse >=10 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
 draw_text_ext(x-43,y+8,"When damaged knocksback foes, deals "+string(store.card_lvl_repulse*2)+" damage.",14,88)
 draw_set_color(c_yellow)
@@ -114,7 +114,7 @@ draw_text(x-40,y-65,"Necromancy")
 draw_sprite(spr_card_art,7,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_necro),15,86)
-if store.card_lvl_necro >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
+if store.card_lvl_necro >=10 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
 draw_text_ext(x-43,y+8,"Summon level "+string((store.card_lvl_necro))+" ally every minute",14,88)
 draw_set_color(c_yellow)
@@ -161,7 +161,7 @@ draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_evilcreed),15,86)
 if store.card_lvl_evilcreed >=5 {draw_text_ext(x-43,y-14,"Max",15,86)}
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"+"+string((store.card_lvl_evilcreed*5)+5)+"% Enemy strength,+"+string((store.card_lvl_evilcreed*2)+3)+"% Enemy Gold bonus",14,88)
+draw_text_ext(x-43,y+8,"+"+string(store.card_lvl_evilcreed*10)+"% Enemy strength,+"+string(store.card_lvl_evilcreed*10)+"% Enemy Gold bonus",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_evilcreed)) 
 }

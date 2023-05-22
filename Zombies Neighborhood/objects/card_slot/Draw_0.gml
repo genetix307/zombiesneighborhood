@@ -53,3 +53,8 @@ if my_id = 11 //Vampire
 if store.card_vampire = 0 {image_index = 1}
 if store.card_vampire > 0 {image_index = 2 draw_card()}
 }
+if my_id = 12 //Evilcreed
+{
+if store.card_evilcreed = 0 {image_index = 1}
+if store.card_evilcreed > 0 {image_index = 2 draw_card()}
+}

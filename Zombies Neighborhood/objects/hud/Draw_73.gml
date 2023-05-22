@@ -95,7 +95,7 @@ if gameover = 1 {
 	//Show Gold bonuses
 	draw_text_color(cx+316,cy+264,"+"+string(round(level/10))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+284,"+"+string(round(run_minutes*store.stage))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+304,"+"+string(round(enemies_killed/100))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+304,"+"+string(round(enemies_killed/10)+hud.enemy_bonus)+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+324,"+"+string(round(neighbors_saved*(5*store.current_stage)))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)

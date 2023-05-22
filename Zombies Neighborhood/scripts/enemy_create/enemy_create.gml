@@ -31,6 +31,13 @@ path_straight=0
 alarm[5]=900 //Speedup enemy if lives long enough
 image_alpha=0
 
+//Evil Creed Card
+if store.card_slot_1 = 12 or store.card_slot_2 = 12 or store.card_slot_3 = 12 or store.card_slot_4 = 12
+	{
+		maxHP+=round(maxHP*((store.card_lvl_evilcreed*10)/100))
+		myHP=maxHP
+	}
+
 //Set Flying
 if type="winged_stinger" {flying=1}
 if type="flying_tentacles" {flying=1 boss=0}

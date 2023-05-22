@@ -47,6 +47,7 @@ show_weapon_header5=""
 weapon_slots_full=0
 ability_slots_full =0
 gem_combine=0
+enemy_bonus=0
 //store.coin_chest_cooldown=0
 alarm[0] = 60 //Timer Increment
 

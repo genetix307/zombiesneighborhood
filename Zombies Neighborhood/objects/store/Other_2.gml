@@ -132,6 +132,7 @@ code_cookie=0
 code_zombie=0
 code_blood=0
 code_bonfire=0
+code_midgar=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------

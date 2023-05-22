@@ -8,9 +8,15 @@ hud.player_hp = 0
 hud.paused = 0
 hud.gameover = 1 
 
-store.gold+= hud.run_minutes*store.stage + (hud.neighbors_saved*(5*store.current_stage)) +round(hud.enemies_killed/100) +round(hud.level/10)
-store.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(5*store.current_stage)) +round(hud.enemies_killed/100) +round(hud.level/10)
-hud.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(5*store.current_stage)) +round(hud.enemies_killed/100) +round(hud.level/10)
+if store.card_slot_1 = 12 or store.card_slot_2 = 12 or store.card_slot_3 = 12 or store.card_slot_4 = 12
+	{
+		hud.enemy_bonus=round(hud.enemies_killed/10)
+		hud.enemy_bonus+=round(hud.enemy_bonus*(store.card_lvl_evilcreed*10)/100)
+	}
+
+store.gold+= hud.run_minutes*store.stage + (hud.neighbors_saved*(5*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level/10)
+store.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(5*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level/10)
+hud.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(5*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level/10)
 
 //Check if best run/level for each level
 if store.current_stage=1 {//Sulky Suburbs

@@ -2,7 +2,7 @@
 if opened = 0 
 {
 opened = 1
-var max_cards = 9.99 //Increment this when adding new card
+var max_cards = 10.99 //Increment this when adding new card
 instance_create_depth(x,y,depth-1000,show_open_card)
 my_id = floor(random(max_cards))+2 
 
@@ -18,6 +18,7 @@ if my_id = 8 {store.card_mastery +=1}
 if my_id = 9 {store.card_necro +=1}
 if my_id = 10 {store.card_revive +=1}
 if my_id = 11 {store.card_vampire +=1}
+if my_id = 12 {store.card_evilcreed +=1}
 
 save_game()
 exit
