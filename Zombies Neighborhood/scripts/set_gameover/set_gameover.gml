@@ -39,6 +39,11 @@ if hud.level > store.mall_best_level {store.mall_best_level=hud.level}
 if (hud.run_minutes>=store.mall_best_minute) {store.mall_best_minute=hud.run_minutes 
 if hud.run_seconds>store.mall_best_second { store.mall_best_second=hud.run_seconds}}
 }
+if store.current_stage=5 {//Alien Airport
+if hud.level > store.airport_best_level {store.airport_best_level=hud.level}
+if (hud.run_minutes>=store.airport_best_minute) {store.airport_best_minute=hud.run_minutes 
+if hud.run_seconds>store.airport_best_second { store.airport_best_second=hud.run_seconds}}
+}
 
 instance_create_depth(cx+172,cy+438,depth-20000,btn_home)	
 instance_create_depth(cx+397,cy+474,depth-20000,chest_endgame)	

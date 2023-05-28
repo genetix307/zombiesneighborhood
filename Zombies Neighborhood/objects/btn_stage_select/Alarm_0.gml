@@ -25,9 +25,9 @@ myBestLevel=store.mall_best_level
 }
 if my_id = 5 {
 myName="Alien Airport"
-//myBestMinute=store.suburbs_best_minute
-//myBestSecond=store.suburbs_best_second
-//myBestLevel=store.suburbs_best_level
+myBestMinute=store.suburbs_best_minute
+myBestSecond=store.suburbs_best_second
+myBestLevel=store.suburbs_best_level
 }
 
 

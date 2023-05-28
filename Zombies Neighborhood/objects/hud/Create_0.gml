@@ -9,6 +9,7 @@ if room=rm_suburbs {instance_create_depth(x,y,depth,wave_gen_suburbs) audio_play
 if room=rm_laboratory {instance_create_depth(x,y,depth,wave_gen_lab) audio_play_sound(bgm_lab,1,true)}
 if room=rm_cemetary {instance_create_depth(x,y,depth,wave_gen_cemetary) audio_play_sound(bgm_cemetary,1,true)}
 if room=rm_mall {instance_create_depth(x,y,depth,wave_gen_mall) audio_play_sound(bgm_mall,1,true)}
+if room=rm_airport {instance_create_depth(x,y,depth,wave_gen_airport) audio_play_sound(bgm_airport,1,true)}
 
 //New player bonus
 if store.games_played<=1 {

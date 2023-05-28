@@ -29,4 +29,11 @@ store.stage=4
 audio_play_sound(sfx_click,1,false)
 }
 
+if my_id=5 and store.mall_best_level>=50
+{
+store.current_stage=5
+store.stage=5
+audio_play_sound(sfx_click,1,false)
+}
+
 

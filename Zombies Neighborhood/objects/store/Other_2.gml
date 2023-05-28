@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.21"
+version="1.22"
 devMode=1
 
 //Character Stats
