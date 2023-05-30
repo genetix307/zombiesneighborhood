@@ -133,6 +133,7 @@ code_zombie=0
 code_blood=0
 code_bonfire=0
 code_midgar=0
+code_umbrella=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------

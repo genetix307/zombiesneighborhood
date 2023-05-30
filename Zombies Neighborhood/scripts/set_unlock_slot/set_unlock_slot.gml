@@ -5,7 +5,7 @@ function set_unlock_slot(){
 if my_id=1
 {
 myName = "Knife"
-myDesc = "Short range weapon that is fired vertically from player."
+myDesc = "Short range weapon that is fired horizontally from player."
 locked=0
 selected=1
 }

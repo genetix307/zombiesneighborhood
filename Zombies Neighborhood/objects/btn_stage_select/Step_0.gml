@@ -26,3 +26,4 @@ if my_id=5 and store.mall_best_level>=50
 image_index=5
 }
 
+

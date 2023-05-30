@@ -16,8 +16,9 @@ draw_text_color(120,410,"Art by Felipe Ishimine",c_white,c_white,c_silver,c_silv
 draw_text_color(120,440,"Art by Niilorino",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(120,470,"Art by MatusMihal",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(120,500,"Art by Retu",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(120,530,"Music by Jaxius",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(120,560,"Music by Wolfy's Music",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(50,590,"Testing & Feedback by Discord community",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(80,620,"Special thanks to YOU for playing!",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(120,530,"Art by Zedotagger",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(120,560,"Music by Jaxius",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(120,590,"Music by Wolfy's Music",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(50,620,"Testing & Feedback by Discord community",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(80,650,"Special thanks to YOU for playing!",c_white,c_white,c_silver,c_silver,1)
 
