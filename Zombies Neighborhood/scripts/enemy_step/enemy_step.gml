@@ -44,6 +44,8 @@ if type="boss_skullbat" and distance_to_object(player)<210 {instance_create_dept
 if type="boss_extermus" and distance_to_object(player)<230 {repeat 5 instance_create_depth(x,y-24,depth,enemy_laser).direction=random(360); atk_speed=180}
 if type="monster_carbuncle" and distance_to_object(player)<240 {repeat 4 instance_create_depth(x,y-24,depth,enemy_laser).direction=random(360); atk_speed=260}
 if type="boss_queenrat" and distance_to_object(player)<200 {repeat 3 instance_create_depth(x,y-24,depth,enemy_acid_ball).direction=random(360); atk_speed=210}
+if type="alien_greenguy" and distance_to_object(player)<300 {instance_create_depth(x,y-24,depth,enemy_acid).direction=random(360); atk_speed=300}
+if type="boss_ufo" and distance_to_object(player)<400 {repeat 10 instance_create_depth(x,y-24,depth,enemy_laser).direction=random(360); atk_speed=270}
 }
 
 //Destroy if out of room

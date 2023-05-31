@@ -3,10 +3,10 @@
 function enemy_create(type){
 //Base Stats
 maxHP+=(store.stage*8)-5+(hud.run_minutes)+(round(hud.level/10))
-if hud.level >=35 {maxHP+=store.stage*5}
-if hud.level >=45 {maxHP+=store.stage*7}
-if hud.level >=55 {maxHP+=store.stage*10}
-if store.gold>1000 {maxHP+=15}
+if hud.level >=30 {maxHP+=store.stage*5}
+if hud.level >=40 {maxHP+=store.stage*7}
+if hud.level >=50 {maxHP+=store.stage*10}
+if store.gold>1000 {maxHP+=hud.level}
 maxHP+=store.scale_creep
 myHP=maxHP
 baseSpeed+=hud.run_minutes/20
@@ -51,6 +51,7 @@ if type="boss_skullbat" {boss=1 flying=1 atk_speed=180 instance_create_depth(x,y
 if type="boss_extermus" {boss=1 atk_speed=150 instance_create_depth(x,y,depth,show_boss_warning)}
 if type="boss_boogie" {boss=1 atk_speed=150 instance_create_depth(x,y,depth,show_boss_warning)}
 if type="boss_queenrat" {boss=1 atk_speed=160 instance_create_depth(x,y,depth,show_boss_warning)}
+if type="boss_ufo" {boss=1 flying=1 atk_speed=180 instance_create_depth(x,y,depth,show_boss_warning)}
 
 if type="beast_spider" {path_straight=1 path_follow=0}
 

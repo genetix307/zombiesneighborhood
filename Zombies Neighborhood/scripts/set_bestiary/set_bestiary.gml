@@ -117,6 +117,16 @@ myName="Name: Scientist\nType: Zombie - Ground"
 myDesc="Studied the cause of the outbreak, before dying from it."
 sprite_index=spr_zombie_scientist
 }
+if my_id=23  {
+myName="Name: Greenguy\nType: Alien - Ground"
+myDesc="Strange green lifeform from another planet."
+sprite_index=spr_alien_greenguy
+}
+if my_id=24  {
+myName="Name: UFO\nType: Boss - Flying"
+myDesc="Lethal Unidentified Flying Object."
+sprite_index=spr_boss_ufo
+}
 
-total_ids=22 //Total number of enemies
+total_ids=24 //Total number of enemies
 }

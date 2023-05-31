@@ -7,6 +7,8 @@ alarm[0]=600
 spawn_crate=900
 max_crates=10
 
+spawn_alien_greenguy=45
+max_alien_greenguy=30
 spawn_zombie_suit=30
 max_zombie_suit=60
 spawn_zombie_cop=90
@@ -23,6 +25,8 @@ spawn_wave_beast_spider=30
 max_wave_beast_spider=8
 spawn_boss_brain=180
 max_boss_brain=1
+spawn_boss_baby=30
+max_boss_baby=1
 spawn_vampire_vlad=70
 max_vampire_vlad=100
 spawn_boss_reaper=30
@@ -41,9 +45,14 @@ spawn_monster_carbuncle=120
 max_monster_carbuncle=13
 spawn_zombie_hulky=60
 max_zombie_hulky=10
+spawn_zombie_scientist=60
+max_zombie_scientist=24
+spawn_boss_ufo=180
+max_boss_ufo=1
 
 ring_zombie_suit=0
 ring_mummy_ground=0
 ring_vampire_vlad=0
+ring_alien_greenguy=0
 
 

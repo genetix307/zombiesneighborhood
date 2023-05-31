@@ -32,5 +32,6 @@ if boss=1 {repeat 4 instance_create_depth(x,y,depth,item_gold).speed=random(4); 
 if boss=1 and (hud.player_luck+50)>random(100) {instance_create_depth(x,y,depth,item_blackhole)}
 if boss=1 and (hud.player_luck+10)>random(100) and instance_number(arcade_machine)<=0 {instance_create_depth(x,y-8,depth,arcade_machine)}
 if type="zombie_gusher" {instance_create_depth(x,y,depth+10,enemy_acid)}
+if type="monster_slime" {instance_create_depth(x,y,depth+10,enemy_acid)}
 
 }
