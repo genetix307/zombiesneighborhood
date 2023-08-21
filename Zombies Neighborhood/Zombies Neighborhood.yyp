@@ -195,6 +195,7 @@
     {"id":{"name":"item_slogun","path":"objects/item_slogun/item_slogun.yy",},"order":34,},
     {"id":{"name":"font_upgrade_header","path":"fonts/font_upgrade_header/font_upgrade_header.yy",},"order":4,},
     {"id":{"name":"item_waveblaster","path":"objects/item_waveblaster/item_waveblaster.yy",},"order":30,},
+    {"id":{"name":"btn_privacypolicy","path":"objects/btn_privacypolicy/btn_privacypolicy.yy",},"order":16,},
     {"id":{"name":"wpn_firebomb","path":"objects/wpn_firebomb/wpn_firebomb.yy",},"order":4,},
     {"id":{"name":"barrel_explosive","path":"objects/barrel_explosive/barrel_explosive.yy",},"order":10,},
     {"id":{"name":"neighbor","path":"objects/neighbor/neighbor.yy",},"order":0,},

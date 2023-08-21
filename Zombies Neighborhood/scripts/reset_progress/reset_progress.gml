@@ -119,4 +119,5 @@ store.code_blood=0
 store.code_bonfire=0
 store.code_midgar=0
 store.code_umbrella=0
+store.code_renfield=0
 }

@@ -3,6 +3,7 @@ depth =-y+2
 flash = 60
 direction=random(360)
 speed=3
+blackhole_used=0
 
 coins = ceil(random(5))
 
