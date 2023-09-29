@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.23"
+version="1.24"
 devMode=1
 
 //Character Stats
@@ -135,6 +135,7 @@ code_bonfire=0
 code_midgar=0
 code_umbrella=0
 code_renfield=0
+code_lotto=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------

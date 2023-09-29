@@ -7,10 +7,7 @@ image_speed = 1
 if image_alpha<1{image_alpha+=.05}
 
 //Upkeep
-mySpeed=baseSpeed*store.gameSpeed
 if slow>0 {mySpeed *=.25 slow-=1}
-if distance_to_object(player)>500 {mySpeed+=.5} //Speed boost if far away from player
-if distance_to_object(player)>600 {mySpeed+=.5} //Speed boost if far away from player
 if damaged>0 {damaged-=1}
 if atk_speed>0 {atk_speed-=1}
 if burning>0 {myHP-=.1 burning-=1}
@@ -27,7 +24,6 @@ if flying=1 {mp_potential_step_object(dest_x,dest_y,mySpeed,player)}
 }
 
 //Set face, Depth
-if x<player.x {image_xscale=1}else{image_xscale=-1}
 depth=-y
 if flying=1 {depth=-y-24}
 
@@ -48,8 +44,6 @@ if type="alien_greenguy" and distance_to_object(player)<300 {instance_create_dep
 if type="boss_ufo" and distance_to_object(player)<400 {repeat 10 instance_create_depth(x,y-24,depth,enemy_laser).direction=random(360); atk_speed=270}
 }
 
-//Destroy if out of room
-if x<0 or x>room_width or y<0 or y>room_height {instance_destroy()}
 }
 }
 

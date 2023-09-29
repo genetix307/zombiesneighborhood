@@ -20,7 +20,7 @@ store.cost_crit_chance=5
 store.cost_crit_multiplier=5
 store.cost_luck=10
 store.cost_xp_gain=50
-store.cost_attaction=25
+store.cost_attaction=20
 //cards 
 store.slot_2_unlocked = 0
 store.slot_3_unlocked = 0
@@ -120,4 +120,5 @@ store.code_bonfire=0
 store.code_midgar=0
 store.code_umbrella=0
 store.code_renfield=0
+store.code_lotto=0
 }

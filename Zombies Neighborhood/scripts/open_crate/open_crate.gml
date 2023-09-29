@@ -88,7 +88,7 @@ if hud.slogun_level<store.slogun_max_level and hud.slogun_level>0 {instance_crea
 }
 
 //Attempt to clean up excess orbs
-if instance_number(xp_orb_green)>165 and 40>(random(100)) {instance_create_depth(x,y,depth,item_blackhole) exit}
+if instance_number(xp_orb_green)>140 and 50>(random(100)) {instance_create_depth(x,y,depth,item_blackhole) exit}
 
 //Backup item if no others available
 if myItemBackup=1 {instance_create_depth(x,y,depth,item_pizza) exit}

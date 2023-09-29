@@ -1,6 +1,6 @@
 if myResult = "payday" and store.code_payday = 0
 {
-reward = 100
+reward = 200
 store.code_payday = 1
 store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
@@ -36,7 +36,7 @@ save_game()
 
 if myResult = "jackpot" and store.code_jackpot = 0
 {
-reward = 2000
+reward = 1000
 store.code_jackpot = 1
 store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
@@ -102,11 +102,18 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
-
 if myResult = "renfield" and store.code_renfield = 0
 {
 reward = 250
 store.code_renfield = 1
+store.gold += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
+save_game()
+}
+if myResult = "lotto" and store.code_lotto = 0
+{
+reward = ceil(random(9999))
+store.code_lotto = 1
 store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()

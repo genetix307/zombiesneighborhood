@@ -8,8 +8,8 @@ spawn_crate=900
 max_crates=10
 
 spawn_zombie_suit=30
-max_zombie_suit=220
-spawn_zombie_cop=90
+max_zombie_suit=160
+spawn_zombie_cop=50
 max_zombie_cop=28
 spawn_mummy_ground=180
 max_mummy_ground=16

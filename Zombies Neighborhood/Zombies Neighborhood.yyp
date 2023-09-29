@@ -55,6 +55,7 @@
     {"id":{"name":"card_slot","path":"objects/card_slot/card_slot.yy",},"order":2,},
     {"id":{"name":"btn_pause","path":"objects/btn_pause/btn_pause.yy",},"order":0,},
     {"id":{"name":"spr_item_regen","path":"sprites/spr_item_regen/spr_item_regen.yy",},"order":7,},
+    {"id":{"name":"enemy_alarm_6","path":"scripts/enemy_alarm_6/enemy_alarm_6.yy",},"order":8,},
     {"id":{"name":"spr_item_waveblaster","path":"sprites/spr_item_waveblaster/spr_item_waveblaster.yy",},"order":33,},
     {"id":{"name":"spr_chest_open","path":"sprites/spr_chest_open/spr_chest_open.yy",},"order":5,},
     {"id":{"name":"sfx_pickup_item","path":"sounds/sfx_pickup_item/sfx_pickup_item.yy",},"order":8,},

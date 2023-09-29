@@ -30,6 +30,7 @@ path_straight=0
 //other
 alarm[5]=900 //Speedup enemy if lives long enough
 image_alpha=0
+alarm[6]=30
 
 //Evil Creed Card
 if store.card_slot_1 = 12 or store.card_slot_2 = 12 or store.card_slot_3 = 12 or store.card_slot_4 = 12

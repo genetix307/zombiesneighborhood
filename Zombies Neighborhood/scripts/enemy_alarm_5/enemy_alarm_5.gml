@@ -4,5 +4,5 @@ function enemy_alarm_5(){
 //Speed enemies if they've live long enough
 if hud.paused=0 {
 baseSpeed+=.1 }
-alarm[5]=900
+alarm[5]=700
 }

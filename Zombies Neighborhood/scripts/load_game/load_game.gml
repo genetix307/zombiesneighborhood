@@ -125,6 +125,7 @@ function load_game(){
 	store.code_midgar = ini_read_real( "save1", "code_midgar",store.code_midgar);
 	store.code_umbrella = ini_read_real( "save1", "code_umbrella",store.code_umbrella);
 	store.code_renfield = ini_read_real( "save1", "code_renfield",store.code_renfield);
+	store.code_lotto = ini_read_real( "save1", "code_lotto",store.code_lotto);
 	
 	//show_message("Game Loaded")
 	ini_close();
