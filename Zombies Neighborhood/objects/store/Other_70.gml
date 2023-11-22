@@ -1,4 +1,5 @@
 // Genetix Studio
+consent_request_async()
 
 // Genetix Studio
 // Early exit if there is no 'type' key defined

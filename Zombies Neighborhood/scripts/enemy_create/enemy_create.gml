@@ -7,6 +7,9 @@ if hud.level >=30 {maxHP+=store.stage*5}
 if hud.level >=40 {maxHP+=store.stage*7}
 if hud.level >=50 {maxHP+=store.stage*10}
 if store.gold>1000 {maxHP+=hud.level}
+if instance_number(def_enemy)>100 {maxHP+=5 baseSpeed+=.15}
+if instance_number(def_enemy)>125 {maxHP+=10 baseSpeed+=.15}
+if instance_number(def_enemy)>150 {maxHP+=10 baseSpeed+=.15}
 maxHP+=store.scale_creep
 myHP=maxHP
 baseSpeed+=hud.run_minutes/20

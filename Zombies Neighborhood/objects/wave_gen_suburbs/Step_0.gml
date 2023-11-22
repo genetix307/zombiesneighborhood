@@ -9,6 +9,7 @@ if !collision_point(x,y,def_solid,false,true) and x>0 and x<room_width and y>0 a
 if hud.run_minutes>=0 {spawn_crate-=1 if hud.player_luck>random(100) {spawn_crate-=1}}
 if spawn_crate<=0 and instance_number(supply_crate)<max_crates {instance_create_depth(x,y,depth,supply_crate) spawn_crate=1200 exit}
 
+if instance_number(def_enemy)<250 {
 //Spawn Enemies
 if hud.run_minutes>=0 and hud.run_seconds<55 {spawn_zombie_suit-=1}
 if spawn_zombie_suit<=0 and instance_number(zombie_suit)<max_zombie_suit {instance_create_depth(x,y,depth,zombie_suit) spawn_zombie_suit=30}
@@ -28,6 +29,7 @@ if hud.level>=50 {spawn_monster_carbuncle-=1}
 if spawn_monster_carbuncle<=0 and instance_number(monster_carbuncle)<max_monster_carbuncle {instance_create_depth(x,y,depth,monster_carbuncle) spawn_monster_carbuncle=420}
 if hud.level>=65 {spawn_zombie_hulky-=1}
 if spawn_zombie_hulky<=0 and instance_number(zombie_hulky)<max_zombie_hulky {instance_create_depth(x,y,depth,zombie_hulky) spawn_zombie_hulky=360}
+}
 
 //Spawn Instant Waves
 if hud.run_minutes>=1 {spawn_wave_beast_spider-=1}
@@ -35,7 +37,6 @@ if hud.run_minutes>=6 {spawn_wave_beast_spider-=1}
 if hud.run_minutes>=13 {spawn_wave_beast_spider-=1}
 if hud.run_minutes>=16 {spawn_wave_beast_spider-=1}
 if spawn_wave_beast_spider<=0 {repeat max_wave_beast_spider instance_create_depth(x,y,depth,beast_spider) spawn_wave_beast_spider=1600+random(1200)}
-
 
 //Spawn Ring Waves
 if ring_zombie_suit>0 {instance_create_depth(x,y,depth,zombie_suit) ring_zombie_suit-=1}

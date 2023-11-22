@@ -93,10 +93,10 @@ if gameover = 1 {
 	draw_text_color(cx+162,cy+354,"Gold Earned: "+string(gold_earned),c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	//Show Gold bonuses
-	draw_text_color(cx+316,cy+264,"+"+string(round(level/10))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+264,"+"+string(round(level))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+284,"+"+string(round(run_minutes*store.stage))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+304,"+"+string(round(enemies_killed/10)+hud.enemy_bonus)+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+324,"+"+string(round(neighbors_saved*(5*store.current_stage)))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+324,"+"+string(round(neighbors_saved*(10*store.current_stage)))+" gold",c_yellow,c_yellow,c_yellow,c_orange,1)
 	
 	draw_set_color(c_lime)
 	draw_text(cx+110,cy+383,"The Undead may have got you,\nbut the night is not over yet!")

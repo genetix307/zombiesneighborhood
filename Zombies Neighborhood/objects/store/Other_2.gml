@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.24"
+version="1.26"
 devMode=1
 
 //Character Stats
@@ -15,7 +15,7 @@ player_critical_chance=0
 player_critical_multiplier=2
 player_luck=0
 player_xp_gain=1
-player_attraction=10
+player_attraction=15
 
 //Upgrades
 cost_maxhealth=5
@@ -96,6 +96,7 @@ neighbors_saved=0
 suburbs_best_minute=0
 suburbs_best_second=0
 suburbs_best_level=0
+suburbs_best_saved=0
 lab_best_minute=0
 lab_best_second=0
 lab_best_level=0
@@ -103,6 +104,7 @@ lab_best_saved=0
 cemetary_best_minute=0
 cemetary_best_second=0
 cemetary_best_level=0
+cemetary_best_saved=0
 mall_best_minute=0
 mall_best_second=0
 mall_best_level=0
@@ -136,6 +138,8 @@ code_midgar=0
 code_umbrella=0
 code_renfield=0
 code_lotto=0
+code_trickortreat=0
+code_turkey=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------

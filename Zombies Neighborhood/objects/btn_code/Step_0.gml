@@ -118,3 +118,19 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
+if myResult = "trickortreat" and store.code_trickortreat = 0
+{
+reward = 666
+store.code_trickortreat = 1
+store.gold += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
+save_game()
+}
+if myResult = "turkey" and store.code_turkey = 0
+{
+reward = 250
+store.code_turkey = 1
+store.gold += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
+save_game()
+}

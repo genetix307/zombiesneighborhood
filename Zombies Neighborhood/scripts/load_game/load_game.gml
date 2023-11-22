@@ -64,6 +64,7 @@ function load_game(){
 	store.suburbs_best_minute = ini_read_real( "save1", "suburbs_best_minute",store.suburbs_best_minute);
 	store.suburbs_best_second = ini_read_real( "save1", "suburbs_best_second",store.suburbs_best_second);
 	store.suburbs_best_level = ini_read_real( "save1", "suburbs_best_level",store.suburbs_best_level);
+	store.suburbs_best_saved = ini_read_real( "save1", "suburbs_best_saved",store.suburbs_best_saved);
 	store.lab_best_minute = ini_read_real( "save1", "lab_best_minute",store.lab_best_minute);
 	store.lab_best_second = ini_read_real( "save1", "lab_best_second",store.lab_best_second);
 	store.lab_best_level = ini_read_real( "save1", "lab_best_level",store.lab_best_level);
@@ -71,6 +72,7 @@ function load_game(){
 	store.cemetary_best_minute = ini_read_real( "save1", "cemetary_best_minute",store.cemetary_best_minute);
 	store.cemetary_best_second = ini_read_real( "save1", "cemetary_best_second",store.cemetary_best_second);
 	store.cemetary_best_level = ini_read_real( "save1", "cemetary_best_level",store.cemetary_best_level);
+	store.cemetary_best_saved = ini_read_real( "save1", "cemetary_best_saved",store.cemetary_best_saved);
 	store.mall_best_minute = ini_read_real( "save1", "mall_best_minute",store.mall_best_minute);
 	store.mall_best_second = ini_read_real( "save1", "mall_best_second",store.mall_best_second);
 	store.mall_best_level = ini_read_real( "save1", "mall_best_level",store.mall_best_level);
@@ -126,6 +128,8 @@ function load_game(){
 	store.code_umbrella = ini_read_real( "save1", "code_umbrella",store.code_umbrella);
 	store.code_renfield = ini_read_real( "save1", "code_renfield",store.code_renfield);
 	store.code_lotto = ini_read_real( "save1", "code_lotto",store.code_lotto);
+	store.code_trickortreat = ini_read_real( "save1", "code_trickortreat",store.code_trickortreat);
+	store.code_turkey = ini_read_real( "save1", "code_turkey",store.code_turkey);
 	
 	//show_message("Game Loaded")
 	ini_close();
