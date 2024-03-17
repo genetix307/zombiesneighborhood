@@ -2,7 +2,7 @@
 if store.gold >= store.cost_crit_chance and maxxed = 0
 {
 store.gold -= store.cost_crit_chance
-store.player_critical_chance +=.2
+store.player_critical_chance +=.25
 store.scale_creep+=.1
 store.cost_crit_chance += 30
 if store.player_critical_chance>2 {store.cost_crit_chance+=25}

@@ -134,3 +134,11 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
+if myResult = "greed" and store.code_greed = 0
+{
+reward = 500
+store.code_greed = 1
+store.gold += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
+save_game()
+}

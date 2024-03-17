@@ -20,10 +20,10 @@ draw_text_color(x-192,y+24,"Best Level: "+string(myBestLevel),c_white,c_white,c_
 draw_text_color(x-192,y+44,"Neighbors Saved: "+string(myBestSaved)+"/7",c_white,c_white,c_silver,c_silver,1)
 }
 
-if myName="Lonely Labs" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 50 in\nSulky Suburbs to unlock",c_orange,c_orange,c_orange,c_orange,1)}
-if myName="Creepy Cemetary" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 50 in\nLonely Labs to unlock",c_orange,c_orange,c_orange,c_orange,1)}
-if myName="Morbid Mall" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 50 in\nCreepy Cemetary to unlock",c_orange,c_orange,c_orange,c_orange,1)}
-if myName="Alien Airport" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 50 in\nMorbid Mall to unlock",c_orange,c_orange,c_orange,c_orange,1)}
+if myName="Lonely Labs" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 30 in\nSulky Suburbs to unlock",c_orange,c_orange,c_orange,c_orange,1)}
+if myName="Creepy Cemetary" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 30 in\nLonely Labs to unlock",c_orange,c_orange,c_orange,c_orange,1)}
+if myName="Morbid Mall" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 30 in\nCreepy Cemetary to unlock",c_orange,c_orange,c_orange,c_orange,1)}
+if myName="Alien Airport" and image_index=0 {draw_text_color(x-192,y+24,"Reach level 30 in\nMorbid Mall to unlock",c_orange,c_orange,c_orange,c_orange,1)}
 
 
 

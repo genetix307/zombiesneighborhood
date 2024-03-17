@@ -2,8 +2,11 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.26"
+version="1.27"
 devMode=1
+
+//Prevent screen from timing out
+os_powersave_enable(false);
 
 //Character Stats
 player_max_hp = 30
@@ -140,6 +143,7 @@ code_renfield=0
 code_lotto=0
 code_trickortreat=0
 code_turkey=0
+code_greed=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------

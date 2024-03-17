@@ -5,6 +5,13 @@ var cy = camera_get_view_y(view_camera[0]);
 if paused=0 {
 show_stats()
 
+//Draw Name
+if store.character=1 {draw_text_color(cx+2,cy+32,"Zack",c_yellow,c_yellow,c_orange,c_orange,1)}
+if store.character=2 {draw_text_color(cx+2,cy+32,"Jill",c_yellow,c_yellow,c_orange,c_orange,1)}
+if store.character=3 {draw_text_color(cx+2,cy+32,"Miles",c_yellow,c_yellow,c_orange,c_orange,1)}
+if store.character=4 {draw_text_color(cx+2,cy+32,"Jack",c_yellow,c_yellow,c_orange,c_orange,1)}
+if store.character=5 {draw_text_color(cx+2,cy+32,"Sheriff Ed",c_yellow,c_yellow,c_orange,c_orange,1)}
+
 //Draw Gold
 draw_set_font(font_stats)
 draw_set_color(c_black)
