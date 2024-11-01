@@ -12,6 +12,7 @@ if damaged>0 {damaged-=1}
 if atk_speed>0 {atk_speed-=1}
 if burning>0 {myHP-=.1 burning-=1}
 if frozen>0 {mySpeed=0 image_speed=0 frozen-=1}
+if hud.victory=1 {instance_destroy()}
 
 //Path & Movement
 if path_follow=1 {

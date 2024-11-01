@@ -67,7 +67,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.0.157",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Zombies Neighborhood",
   "resources":[
@@ -217,6 +217,7 @@
     {"id":{"name":"item_wisdombook","path":"objects/item_wisdombook/item_wisdombook.yy",},},
     {"id":{"name":"joystick","path":"objects/joystick/joystick.yy",},},
     {"id":{"name":"lab_wall","path":"objects/lab_wall/lab_wall.yy",},},
+    {"id":{"name":"lvl_up_knockback","path":"objects/lvl_up_knockback/lvl_up_knockback.yy",},},
     {"id":{"name":"mall_ceil","path":"objects/mall_ceil/mall_ceil.yy",},},
     {"id":{"name":"mall_shelfs","path":"objects/mall_shelfs/mall_shelfs.yy",},},
     {"id":{"name":"mall_wall","path":"objects/mall_wall/mall_wall.yy",},},
@@ -559,6 +560,7 @@
     {"id":{"name":"spr_valari","path":"sprites/spr_valari/spr_valari.yy",},},
     {"id":{"name":"spr_vampire_vlad","path":"sprites/spr_vampire_vlad/spr_vampire_vlad.yy",},},
     {"id":{"name":"spr_vendingmachine","path":"sprites/spr_vendingmachine/spr_vendingmachine.yy",},},
+    {"id":{"name":"spr_victory","path":"sprites/spr_victory/spr_victory.yy",},},
     {"id":{"name":"spr_waveblaster","path":"sprites/spr_waveblaster/spr_waveblaster.yy",},},
     {"id":{"name":"spr_weapon_bloodknife","path":"sprites/spr_weapon_bloodknife/spr_weapon_bloodknife.yy",},},
     {"id":{"name":"spr_weapon_knife","path":"sprites/spr_weapon_knife/spr_weapon_knife.yy",},},

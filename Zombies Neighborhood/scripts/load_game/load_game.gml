@@ -131,6 +131,7 @@ function load_game(){
 	store.code_trickortreat = ini_read_real( "save1", "code_trickortreat",store.code_trickortreat);
 	store.code_turkey = ini_read_real( "save1", "code_turkey",store.code_turkey);
 	store.code_greed = ini_read_real( "save1", "code_greed",store.code_greed);
+	store.code_wicked = ini_read_real( "save1", "code_wicked",store.code_wicked);
 	
 	//show_message("Game Loaded")
 	ini_close();

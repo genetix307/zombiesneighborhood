@@ -127,6 +127,7 @@ function save_game(){
 	ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
 	ini_write_real( "save1", "code_turkey", store.code_turkey);
 	ini_write_real( "save1", "code_greed", store.code_greed);
+	ini_write_real( "save1", "code_wicked", store.code_wicked);
 	
 	//show_message("Game Saved")
 	ini_close();

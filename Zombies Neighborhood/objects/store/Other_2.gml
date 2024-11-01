@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.28"
+version="1.29"
 devMode=1
 
 //Prevent screen from timing out
@@ -144,6 +144,7 @@ code_lotto=0
 code_trickortreat=0
 code_turkey=0
 code_greed=0
+code_wicked=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------

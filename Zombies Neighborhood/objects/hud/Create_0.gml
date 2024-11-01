@@ -29,6 +29,8 @@ next_level=3
 
 //Misc
 gameover=0
+victory=0
+victory_fade=0
 revive=0
 run_seconds = 0
 run_minutes = 0

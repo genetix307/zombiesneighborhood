@@ -109,4 +109,13 @@ if gameover = 1 {
 	draw_text(cx+110,cy+383,"The Undead may have got you,\nbut the night is not over yet!")
 }
 
+//victory
+if victory>0 {
+victory_fade+=.0025	
+	draw_set_alpha(victory_fade-.05)
+	draw_set_color(c_black)
+	draw_rectangle(0,0,room_width,room_height,false)
+	draw_set_alpha(1)
+	draw_sprite(spr_victory,0,cx+240,cy+480)
+}
 
