@@ -1,4 +1,3 @@
-
 //Check if Critical
 if hud.player_critical_chance >= random(100) and other.damaged=0 and critical=0
 {

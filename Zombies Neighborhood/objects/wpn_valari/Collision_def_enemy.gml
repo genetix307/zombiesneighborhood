@@ -24,4 +24,3 @@ critical=0
 }
 
 if hud.valari_pierce = "No" {instance_destroy()}
-

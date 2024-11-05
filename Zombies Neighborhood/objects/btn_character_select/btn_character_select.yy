@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_character_select",
-    "path":"sprites/spr_character_select/spr_character_select.yy",
+    "name":"spr_character_select_1",
+    "path":"sprites/spr_character_select_1/spr_character_select_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

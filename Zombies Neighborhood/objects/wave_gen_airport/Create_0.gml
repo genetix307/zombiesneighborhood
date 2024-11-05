@@ -49,6 +49,8 @@ spawn_zombie_scientist=60
 max_zombie_scientist=24
 spawn_boss_ufo=180
 max_boss_ufo=1
+spawn_drippy=3600
+max_drippy=3
 
 ring_zombie_suit=0
 ring_mummy_ground=0

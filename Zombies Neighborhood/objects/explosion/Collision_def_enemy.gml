@@ -15,4 +15,3 @@ if boss=0 {mp_potential_step_object(player.x,player.y,-4,def_solid)}
 
 // Inherit the parent event
 event_inherited();
-

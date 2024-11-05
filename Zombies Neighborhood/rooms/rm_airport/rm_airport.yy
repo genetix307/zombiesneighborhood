@@ -511,7 +511,7 @@
           -1862,-2147483648,-5,1,-51,-2147483648,-5,1,-51,-2147483648,-5,1,-51,-2147483648,-5,1,-51,-2147483648,
           -5,1,-12,-2147483648,1,0,-38,-2147483648,-11,1,-45,-2147483648,-11,1,1,0,-44,-2147483648,-11,1,1,0,-44,
           -2147483648,-11,1,-815,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"bg_concrete","path":"tilesets/bg_concrete/bg_concrete.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":250,"TileCompressedData":[
           -7867,-2147483648,12,305,306,307,308,309,310,313,314,315,316,317,318,-238,-2147483648,12,337,338,339,
           340,341,342,345,346,347,348,349,350,-238,-2147483648,2,25,26,-8,139,2,29,30,-238,-2147483648,2,57,58,
@@ -583,7 +583,7 @@
           2,189,190,-238,-2147483648,2,217,218,-8,139,2,221,222,-238,-2147483648,2,249,250,-8,139,2,253,254,-238,
           -2147483648,2,497,498,-8,388,2,501,502,-238,-2147483648,12,529,530,531,529,530,531,532,533,534,532,533,
           534,-13871,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"bg_tile_roads_tileset","path":"tilesets/bg_tile_roads_tileset/bg_tile_roads_tileset.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_dirtsand","path":"sprites/bg_dirtsand/bg_dirtsand.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_airport",

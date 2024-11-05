@@ -18,7 +18,7 @@ if damaged=0
 //repeat 1 instance_create_depth(x,y,depth,effect_blood_splatter)
 //instance_create_depth(x,y,depth,show_small_hit)
 //knockback
-if boss=0 {mp_potential_step_object(player.x,player.y,-120,def_solid)}
+if boss=0 {mp_potential_step_object(player.x,player.y,-150,def_solid)}
 }
 }
 

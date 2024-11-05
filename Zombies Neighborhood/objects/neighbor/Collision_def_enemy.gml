@@ -1,4 +1,3 @@
-// Genetix Studio
 if distance_to_object(player)<480
 {
 hp -=1

@@ -5,7 +5,7 @@
 //draw_set_font(font_med_hud)
 //draw_set_color(c_yellow)
 //draw_text(207,230,"Tier One") 
-draw_text(161,502,"Quick Challenges") 
+draw_text(161,442,"Quick Challenges") 
 //draw_set_color(c_white)
 //draw_text(176,270,"Best Day: "+string(store.best_day))
 //draw_text(176,296,"Gem Bonus x1")

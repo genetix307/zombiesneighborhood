@@ -1,5 +1,3 @@
-
-
 with other {
 if damaged=0 
 {

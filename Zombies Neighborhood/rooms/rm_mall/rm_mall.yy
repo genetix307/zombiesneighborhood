@@ -253,7 +253,7 @@
           1,-10,-2147483648,-3,1,-10,-2147483648,-3,1,-10,-2147483648,-3,1,-10,-2147483648,-3,1,-10,-2147483648,
           -3,1,-10,-2147483648,-3,1,-4,0,-9,-2147483648,-3,0,-69,-2147483648,-3,1,-10,-2147483648,-3,1,-6,-2147483648,
           -7,1,-6,-2147483648,-7,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"bg_concrete","path":"tilesets/bg_concrete/bg_concrete.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_floor_marble","path":"sprites/spr_floor_marble/spr_floor_marble.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_mall",

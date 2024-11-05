@@ -695,7 +695,7 @@
           229,230,231,226,227,228,229,230,231,226,227,228,229,230,231,226,227,228,229,230,231,226,227,228,229,
           230,231,226,227,228,229,230,231,226,227,228,229,230,231,226,227,228,229,226,227,228,229,226,227,228,
           229,230,231,482,483,484,485,486,487,-14565,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"bg_tile_roads_tileset","path":"tilesets/bg_tile_roads_tileset/bg_tile_roads_tileset.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_floor_grass","path":"sprites/spr_floor_grass/spr_floor_grass.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_suburbs",

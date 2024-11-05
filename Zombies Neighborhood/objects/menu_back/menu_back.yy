@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"endround_backdrop",
-    "path":"sprites/endround_backdrop/endround_backdrop.yy",
+    "name":"endround_backdrop_1",
+    "path":"sprites/endround_backdrop_1/endround_backdrop_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

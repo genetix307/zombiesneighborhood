@@ -43,6 +43,8 @@ spawn_zombie_hulky=60
 max_zombie_hulky=10
 spawn_zombie_scientist=60
 max_zombie_scientist=24
+spawn_drippy=3600
+max_drippy=1
 
 ring_zombie_suit=0
 ring_mummy_ground=0

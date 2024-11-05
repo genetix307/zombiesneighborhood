@@ -127,6 +127,11 @@ myName="Name: UFO\nType: Boss - Flying"
 myDesc="Lethal Unidentified Flying Object."
 sprite_index=spr_boss_ufo
 }
+if my_id=25  {
+myName="Name: Drippy\nType: Monster - Ground"
+myDesc="Oozing a substance that is oddly similar to Grape Jelly."
+sprite_index=spr_monster_drippy
+}
 
-total_ids=24 //Total number of enemies
+total_ids=25 //Total number of enemies
 }

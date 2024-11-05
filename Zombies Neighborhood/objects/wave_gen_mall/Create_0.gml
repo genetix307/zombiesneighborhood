@@ -49,6 +49,8 @@ spawn_spirit_ghost=90
 max_spirit_ghost=60
 spawn_boss_boogie=180
 max_boss_boogie=1
+spawn_drippy=3600
+max_drippy=1
 
 ring_zombie_suit=0
 ring_mummy_ground=0
