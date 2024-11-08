@@ -127,4 +127,5 @@ store.code_trickortreat=0
 store.code_turkey=0
 store.code_greed=0
 store.code_wicked=0
+store.code_corpse=0
 }

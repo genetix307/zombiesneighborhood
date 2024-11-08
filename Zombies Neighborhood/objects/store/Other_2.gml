@@ -145,6 +145,7 @@ code_trickortreat=0
 code_turkey=0
 code_greed=0
 code_wicked=0
+code_corpse=0
 
 //Weapon Stats ----------------------------------------------------------------
 //Knife ----------------------------------------------------
