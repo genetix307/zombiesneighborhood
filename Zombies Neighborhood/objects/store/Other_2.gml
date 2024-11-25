@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.30"
+version="1.31"
 devMode=1
 
 //Prevent screen from timing out

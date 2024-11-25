@@ -53,7 +53,7 @@ if spawn_boss_brain<=0 and instance_number(boss_brain)<max_boss_brain {instance_
 if hud.run_minutes>=12 {spawn_boss_skullbat-=1}
 if spawn_boss_skullbat<=0 and instance_number(boss_skullbat)<max_boss_skullbat {instance_create_depth(x,y,depth,boss_skullbat) spawn_boss_skullbat=64000 ring_mummy_ground=33}
 if hud.run_minutes>=15 {spawn_boss_reaper-=1}
-if spawn_boss_reaper<=0 and instance_number(boss_reaper)<max_boss_reaper {instance_create_depth(x,y,depth,boss_reaper) spawn_boss_reaper=3600}
+if spawn_boss_reaper<=0 and instance_number(boss_reaper)<max_boss_reaper {instance_create_depth(x,y,depth,boss_reaper)}
 }
 
 }

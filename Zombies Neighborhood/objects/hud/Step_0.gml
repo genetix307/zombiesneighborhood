@@ -12,5 +12,5 @@ if revive >0 {revive=0 player_hp=player_max_hp*((10+(store.card_lvl_revive*15))/
 }
 
 //victory
-if victory_fade>1.5 {room=rm_menu_home}
+if victory_fade>1.2 {set_endrun() room=rm_menu_home}
 

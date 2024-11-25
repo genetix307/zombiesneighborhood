@@ -64,7 +64,7 @@ if spawn_boss_skullbat<=0 and instance_number(boss_skullbat)<max_boss_skullbat {
 if hud.run_minutes=9 {spawn_boss_baby-=1}
 if spawn_boss_baby<=0 and hud.run_minutes>=4 {instance_create_depth(x,y,depth,boss_baby) spawn_boss_baby=4000 ring_mummy_ground=14}
 if hud.run_minutes>=15 {spawn_boss_reaper-=1}
-if spawn_boss_reaper<=0 and instance_number(boss_reaper)<max_boss_reaper {instance_create_depth(x,y,depth,boss_reaper) spawn_boss_reaper=3600}
+if spawn_boss_reaper<=0 and instance_number(boss_reaper)<max_boss_reaper {instance_create_depth(x,y,depth,boss_reaper)}
 }
 
 }
